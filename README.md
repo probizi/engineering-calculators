@@ -2,7 +2,7 @@
 
 **[CalcEngineer.com](https://calcengineer.com)** provides free, accurate engineering calculators built for professionals. Whether you're sizing HVAC equipment, calculating voltage drop, or checking duct velocity — every tool delivers instant results with no sign-up required.
 
-Currently **172 calculators** are live across HVAC and Electrical categories, with Structural, Mechanical, and Manufacturing calculators in development.
+Currently **194 calculators** are live across HVAC and Electrical categories, with Structural, Mechanical, and Manufacturing calculators in development.
 
 ---
 
@@ -185,18 +185,22 @@ Currently **172 calculators** are live across HVAC and Electrical categories, wi
 
 ---
 
-## Electrical Calculators (48)
+## Electrical Calculators (70)
 
 ### Voltage, Power & Conversions
 
 | Calculator | Description |
 |---|---|
+| [Ohm's Law Calculator](https://calcengineer.com/electrical/ohms-law-calculator/) | Solve for voltage, current, resistance, or power from any two inputs using Ohm's Law |
+| [Single-Phase Power Calculator](https://calcengineer.com/electrical/single-phase-power-calculator/) | Calculate single-phase real (kW), apparent (kVA), and reactive power from voltage, current, and power factor |
+| [Three-Phase Power Calculator](https://calcengineer.com/electrical/three-phase-power-calculator/) | Calculate apparent, active, and reactive power for three-phase systems |
+| [Power Factor Calculator](https://calcengineer.com/electrical/power-factor-calculator/) | Calculate power factor from real and apparent power with status classification |
+| [Power Loss Calculator](https://calcengineer.com/electrical/power-loss-calculator/) | Calculate power loss (kW), loss percentage, and efficiency from input and output power |
 | [Voltage Drop Calculator](https://calcengineer.com/electrical/voltage-drop-calculator/) | Calculate voltage drop and percentage from load current and wire length |
 | [Voltage Drop Calculator — NEC (Copper)](https://calcengineer.com/electrical/voltage-drop-calculator-nec-copper/) | NEC-compliant voltage drop for copper conductors |
 | [Voltage Drop Calculator — NEC (Aluminum)](https://calcengineer.com/electrical/voltage-drop-calculator-nec-aluminum/) | NEC-compliant voltage drop for aluminum conductors |
 | [Lighting Circuit Voltage Drop Calculator](https://calcengineer.com/electrical/lighting-circuit-voltage-drop/) | Calculate voltage drop and load voltage for lighting branch circuits |
 | [Voltage Divider Calculator](https://calcengineer.com/electrical/voltage-divider-calculator/) | Calculate output voltage and resistor values for voltage divider circuits |
-| [Three-Phase Power Calculator](https://calcengineer.com/electrical/three-phase-power-calculator/) | Calculate apparent, active, and reactive power for three-phase systems |
 | [kVA to Amps Calculator](https://calcengineer.com/electrical/kva-to-amps-calculator/) | Convert kVA to amps for single-phase and three-phase systems |
 | [kVA to kW Calculator](https://calcengineer.com/electrical/kva-to-kw-calculator/) | Convert apparent power to real power using power factor |
 | [kW to kVA Calculator](https://calcengineer.com/electrical/kw-to-kva-calculator/) | Convert real power to apparent power using power factor |
@@ -209,12 +213,18 @@ Currently **172 calculators** are live across HVAC and Electrical categories, wi
 | [AFCI Zone Calculator](https://calcengineer.com/electrical/afci-zone-calculator/) | Determine AFCI protection requirements by room and circuit type |
 | [GFCI Protection Requirements Calculator](https://calcengineer.com/electrical/gfci-protection-requirements-calculator/) | Identify GFCI protection needs by location and circuit type |
 | [Arc Flash Energy Calculator (NEC)](https://calcengineer.com/electrical/arc-flash-energy-calculator-nec/) | Calculate incident energy and arc flash boundaries per NFPA 70E |
+| [Surge Protection Device Rating Calculator](https://calcengineer.com/electrical/surge-protection-device-rating/) | Select SPD type by location, size MCOV from system voltage, and verify SCCR adequacy |
+| [Lightning Protection Zone Calculator](https://calcengineer.com/electrical/lightning-protection-zone/) | Determine lightning protection zone using rolling sphere method for LPS Class I–IV |
+| [Switchgear Short Circuit Rating Calculator](https://calcengineer.com/electrical/switchgear-short-circuit-rating/) | Calculate available fault current at switchgear bus from transformer data and verify SCCR rating |
 
 ### Wiring & Conductors
 
 | Calculator | Description |
 |---|---|
+| [Wire Size / Ampacity Calculator (NEC)](https://calcengineer.com/electrical/wire-size-ampacity-nec-calculator/) | Calculate NEC wire ampacity with 4-step derating: base, ambient, bundling, and terminal correction |
 | [Cable Ampacity Calculator](https://calcengineer.com/electrical/cable-ampacity-calculator/) | Calculate conductor ampacity with derating for temperature and conduit fill |
+| [Conduit Fill Calculator (NEC)](https://calcengineer.com/electrical/conduit-fill-calculator-nec/) | Calculate NEC conduit fill percentage for EMT, RMC, IMC, PVC, and other conduit types per Chapter 9 |
+| [Service Entrance Size Calculator](https://calcengineer.com/electrical/service-entrance-size-calculator/) | Size residential service entrance per NEC Article 220 using Standard or Optional Method |
 | [Cable Pulling Tension Calculator](https://calcengineer.com/electrical/cable-pulling-tension/) | Calculate maximum pulling tension for cable installation in conduit |
 | [Cable Tray Fill Calculator (NEC)](https://calcengineer.com/electrical/cable-tray-fill-calculator-nec/) | Check cable tray fill compliance per NEC Article 392 |
 | [Cable Tray Ventilation Calculator](https://calcengineer.com/electrical/cable-tray-ventilation/) | Calculate ventilation requirements for enclosed cable tray systems |
@@ -227,7 +237,16 @@ Currently **172 calculators** are live across HVAC and Electrical categories, wi
 | [Motor Current Calculator](https://calcengineer.com/electrical/motor-current-calculator/) | Calculate full-load current for AC motors from horsepower and voltage |
 | [Motor Torque Calculator](https://calcengineer.com/electrical/motor-torque-calculator/) | Calculate motor torque from power, speed, and efficiency |
 | [Motor Acceleration Time Calculator](https://calcengineer.com/electrical/motor-acceleration-time/) | Estimate motor run-up time from inertia, torque, and rated speed |
+| [Soft Starter Sizing Calculator](https://calcengineer.com/electrical/soft-starter-sizing/) | Size soft starter rated current with derating for ambient temperature, altitude, and duty cycle |
 | [VFD Parameter Selection Calculator](https://calcengineer.com/electrical/vfd-parameter-selection/) | Select key VFD parameters from motor nameplate and application data |
+
+### Distribution & Switching
+
+| Calculator | Description |
+|---|---|
+| [Transformer Sizing Calculator](https://calcengineer.com/electrical/transformer-sizing-calculator/) | Size transformer from load data; recommend standard kVA size and show utilization percentage |
+| [Transfer Switch Sizing Calculator](https://calcengineer.com/electrical/transfer-switch-sizing/) | Size transfer switch in amps per NEC Article 702 with 125% continuous load factor applied |
+| [Demand Factor Calculator (NEC)](https://calcengineer.com/electrical/demand-factor-calculator-nec/) | Apply NEC demand factor to connected load in VA/kVA; get demand load and reduction percentage |
 
 ### Power Quality & Harmonics
 
@@ -237,6 +256,7 @@ Currently **172 calculators** are live across HVAC and Electrical categories, wi
 | [Harmonic Filter Design Calculator](https://calcengineer.com/electrical/harmonic-filter-design/) | Design passive harmonic filters for power quality improvement |
 | [CT Burden Calculator](https://calcengineer.com/electrical/ct-burden-calculator/) | Calculate current transformer burden from connected load impedances |
 | [Capacitor Sizing for Power Factor Correction](https://calcengineer.com/electrical/capacitor-sizing-for-power-factor-correction/) | Calculate capacitor bank size to improve power factor to a target value |
+| [Power Quality Analyzer Fit Tool](https://calcengineer.com/electrical/power-quality-analyzer-estimator/) | Assess power quality analyzer suitability by site voltage, phases, harmonics, and logging requirements |
 
 ### Energy Storage & Backup
 
@@ -249,6 +269,8 @@ Currently **172 calculators** are live across HVAC and Electrical categories, wi
 | [UPS Battery Runtime Calculator](https://calcengineer.com/electrical/ups-battery-runtime-calculator/) | Calculate UPS backup runtime from battery capacity and load |
 | [UPS Sizing Calculator](https://calcengineer.com/electrical/ups-sizing-calculator/) | Size UPS systems from connected load, power factor, and growth margin |
 | [Microgrid Battery Storage Sizing Calculator](https://calcengineer.com/electrical/microgrid-battery-storage-sizing/) | Size battery storage for microgrid islanding and peak shaving |
+| [Smart Grid Peak Shaving Calculator](https://calcengineer.com/electrical/smart-grid-peak-shaving-calculator/) | Size battery energy storage for peak shaving with demand charge savings and payback calculation |
+| [Demand Response Load Shedding Calculator](https://calcengineer.com/electrical/demand-response-load-shedding/) | Check if available shed load meets a demand response target; get required cut and remaining demand |
 
 ### Grounding & Earthing
 
@@ -270,15 +292,30 @@ Currently **172 calculators** are live across HVAC and Electrical categories, wi
 | [Microgrid Stability Estimator](https://calcengineer.com/electrical/microgrid-stability-estimator/) | Assess microgrid frequency and voltage stability margins under islanded operation |
 | [Antenna Gain Calculator](https://calcengineer.com/electrical/antenna-gain-calculator/) | Calculate antenna gain from directivity and radiation efficiency |
 
+### Lighting
+
+| Calculator | Description |
+|---|---|
+| [Lighting Level Calculator (IES)](https://calcengineer.com/electrical/lighting-level-calculator-ies/) | Estimate average maintained illuminance via lumen method from lumens, CU, LLF, and area |
+
 ### Passive Components
 
 | Calculator | Description |
 |---|---|
+| [Series/Parallel Resistor Calculator](https://calcengineer.com/electrical/seriesparallel-resistor-calculator/) | Calculate equivalent resistance for 2–20 resistors in series or parallel with E-series standard matching |
 | [Capacitor Bank Calculator](https://calcengineer.com/electrical/capacitor-bank-calculator/) | Calculate total capacitance and reactive power from capacitor bank configuration |
 | [Capacitor Charge/Discharge Time Calculator](https://calcengineer.com/electrical/capacitor-chargedischarge-time-calculator/) | Calculate RC circuit charge and discharge time constants |
 | [Inductor Design Calculator](https://calcengineer.com/electrical/inductor-design-calculator/) | Calculate inductor parameters from core geometry and winding specifications |
 | [Inductor Energy Storage Calculator](https://calcengineer.com/electrical/inductor-energy-storage-calculator/) | Calculate energy stored in an inductor from inductance and current |
 | [Inductor Reactance Calculator](https://calcengineer.com/electrical/inductor-reactance-calculator/) | Calculate inductive reactance X_L = 2πfL at any frequency |
+
+### Electronics & Signals
+
+| Calculator | Description |
+|---|---|
+| [Op-Amp Gain Calculator](https://calcengineer.com/electrical/op-amp-gain-calculator/) | Calculate op-amp gain for inverting, non-inverting, voltage follower, difference, and summing topologies |
+| [Op-Amp Inverting/Non-Inverting Calculator](https://calcengineer.com/electrical/op-amp-invertingnon-inverting-calculator/) | Calculate gain, bandwidth, bias compensation resistor, and output offset for precision op-amp designs |
+| [Signal Propagation Delay Calculator](https://calcengineer.com/electrical/signal-propagation-delay/) | Calculate one-way signal propagation delay from path length and propagation speed |
 
 ---
 
@@ -292,6 +329,7 @@ CalcEngineer calculators are built on recognized engineering standards:
 - **NFPA 70E** — Electrical Safety in the Workplace (arc flash boundaries)
 - **NFPA 31** — Standard for the Installation of Oil-Burning Equipment
 - **IEEE 80** — Guide for Safety in AC Substation Grounding
+- **IES** — Lighting handbook (illuminance levels and lumen method)
 - **IMC** — International Mechanical Code
 - **ASABE** — Agricultural and Biological Engineering standards (grain drying)
 
