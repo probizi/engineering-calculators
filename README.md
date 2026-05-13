@@ -1,356 +1,239 @@
-# Engineering Calculators — Free Online Tools for HVAC, Electrical & Technical Professionals
+# CalcEngineer — Engineering Calculators
 
-**[CalcEngineer.com](https://calcengineer.com)** provides free, accurate engineering calculators built for professionals. Whether you're sizing HVAC equipment, calculating voltage drop, or checking duct velocity — every tool delivers instant results with no sign-up required.
+> **195+ free professional engineering calculators** with Metric & Imperial support, NEC/ASHRAE/SMACNA code compliance.
 
-Currently **194 calculators** are live across HVAC and Electrical categories, with Structural, Mechanical, and Manufacturing calculators in development.
-
----
-
-## What Makes These Calculators Different
-
-- **Built for real engineering work** — not generic formula widgets. Each calculator is based on ASHRAE, SMACNA, NEC, and other professional standards.
-- **Metric and Imperial support** — switch between unit systems instantly without re-entering data.
-- **Result Intelligence System (RIS)** — results include status labels, context, and recommended next steps, not just raw numbers.
-- **Paid PDF reports** — generate a professional report for any calculation to attach to project documentation.
-- **No account required** for basic use.
+🌐 **Website:** [calcengineer.com](https://calcengineer.com)
+📐 **All Calculators:** [calcengineer.com/calculators](https://calcengineer.com/calculators)
+⭐ **GitHub:** [github.com/probizi/engineering-calculators](https://github.com/probizi/engineering-calculators)
 
 ---
 
-## HVAC Calculators (124)
+## 📊 Overview
 
-### Airflow & Duct Design
+| Category | Calculators |
+|----------|-------------|
+| 🌡️ HVAC & Mechanical | 124 |
+| ⚡ Electrical & Electronics | 71 |
+| **Total** | **195** |
 
-| Calculator | Description |
-|---|---|
-| [Duct Size Calculator](https://calcengineer.com/hvac/duct-size-calculator/) | Estimate duct cross-sectional area and round/rectangular dimensions from airflow and velocity |
-| [Duct Velocity Calculator](https://calcengineer.com/hvac/duct-velocity-calculator/) | Calculate air velocity in ducts from airflow and duct shape |
-| [Duct Friction Loss Calculator](https://calcengineer.com/hvac/duct-friction-loss-calculator/) | Calculate duct friction loss from airflow, diameter, and duct length |
-| [Duct Pressure Drop Calculator](https://calcengineer.com/hvac/duct-pressure-drop-calculator/) | Total pressure drop including friction rate per 100 ft |
-| [Duct Insulation Loss Calculator](https://calcengineer.com/hvac/duct-insulation-loss-calculator/) | Heat loss through duct insulation from temperature differential and dimensions |
-| [CFM Calculator](https://calcengineer.com/hvac/cfm-calculator/) | Calculate required airflow from room dimensions and air change requirements |
-| [Air Changes per Hour Calculator](https://calcengineer.com/hvac/air-changes-per-hour-calculator/) | Calculate ACH from airflow rate and room volume |
-| [Air Velocity Calculator](https://calcengineer.com/hvac/air-velocity-calculator/) | Calculate air velocity in FPM, ft/s, and m/s from airflow and duct area |
-| [Velocity Pressure Calculator](https://calcengineer.com/hvac/velocity-pressure-calculator/) | Convert air velocity to velocity pressure for HVAC design |
-| [Static Pressure Calculator](https://calcengineer.com/hvac/static-pressure-calculator/) | Calculate system static pressure from velocity, duct length, and diameter |
-| [Raised Floor Pressure Drop Calculator](https://calcengineer.com/hvac/raised-floor-pressure-drop/) | Pressure drop through raised floor panels for data center airflow |
-| [Fan Law Calculator](https://calcengineer.com/hvac/fan-law-calculator/) | Apply fan affinity laws to calculate speed, airflow, and pressure changes |
-| [Fan Power Calculator](https://calcengineer.com/hvac/fan-power-calculator/) | Calculate fan shaft power from airflow, pressure rise, and efficiency |
-| [Fan Efficiency Calculator](https://calcengineer.com/hvac/fan-efficiency-calculator/) | Calculate fan mechanical and total efficiency |
-| [Grease Duct Sizing Calculator](https://calcengineer.com/hvac/grease-duct-sizing/) | Size commercial kitchen grease ducts from exhaust airflow and target velocity |
-| [Kitchen Hood Exhaust CFM Calculator](https://calcengineer.com/hvac/kitchen-hood-exhaust-cfm/) | Calculate required CFM for commercial kitchen exhaust hoods |
-| [Sound Attenuation in Ducts Calculator](https://calcengineer.com/hvac/sound-attenuation-in-ducts-calculator/) | Calculate noise reduction through duct length and lining |
-| [Dust Collection System Sizing Calculator](https://calcengineer.com/hvac/dust-collection-system-sizing/) | Estimate required airflow for industrial dust collection |
-| [Fume Hood Face Velocity Calculator](https://calcengineer.com/hvac/fume-hood-face-velocity-calculator/) | Calculate fume hood capture velocity for laboratory exhaust |
-| [Grain Dryer Airflow Calculator](https://calcengineer.com/hvac/grain-dryer-airflow/) | Size ventilation airflow for grain drying per ASABE standards |
-| [Silo Aeration Fan Sizing Calculator](https://calcengineer.com/hvac/silo-aeration-fan-sizing/) | Calculate aeration airflow and fan selection for grain silos |
-
-### Cooling & Refrigeration
-
-| Calculator | Description |
-|---|---|
-| [Cooling Load Calculator](https://calcengineer.com/hvac/cooling-load-calculator/) | Calculate HVAC cooling load from room area, ceiling height, and temperatures |
-| [AC Tonnage Calculator](https://calcengineer.com/hvac/ac-tonnage-calculator/) | Estimate AC cooling capacity in BTU/hr or tons from room area and conditions |
-| [HVAC Heat Load Calculator](https://calcengineer.com/hvac/hvac-heat-load-calculator/) | Calculate heat load in BTU/hr or kW for HVAC design |
-| [Chiller Capacity Calculator](https://calcengineer.com/hvac/chiller-capacity-calculator/) | Size chiller from chilled water flow rate and temperature difference |
-| [Chiller Efficiency Calculator (IPLV)](https://calcengineer.com/hvac/chiller-efficiency-calculator-iplv/) | Calculate integrated part-load value for chiller efficiency |
-| [Cooling Tower Calculator](https://calcengineer.com/hvac/cooling-tower-calculator/) | Analyze cooling tower performance from water and air temperatures |
-| [Cooling Tower Approach Calculator](https://calcengineer.com/hvac/cooling-tower-approach-calculator/) | Calculate approach temperature for cooling tower selection |
-| [Refrigeration Load Calculator](https://calcengineer.com/hvac/refrigeration-load-calculator/) | Estimate refrigeration load from envelope area, U-value, and temperatures |
-| [Cold Storage Door Infiltration Calculator](https://calcengineer.com/hvac/cold-storage-door-infiltration/) | Calculate heat gain from air infiltration through cold storage doors |
-| [Cool Roof Energy Savings Calculator](https://calcengineer.com/hvac/cool-roof-energy-savings-calculator/) | Estimate energy savings from increased roof solar reflectance |
-| [Coil Capacity Calculator](https://calcengineer.com/hvac/coil-capacity-calculator/) | Calculate total, sensible, and latent HVAC coil capacity with SHR |
-| [Latent Heat Load Calculator](https://calcengineer.com/hvac/latent-heat-load-calculator/) | Calculate latent heat load from airflow and humidity ratio change |
-| [Sensible Heat Ratio Calculator](https://calcengineer.com/hvac/sensible-heat-ratio-calculator/) | Calculate SHR from sensible and latent loads |
-| [Restaurant Cooling Load Calculator](https://calcengineer.com/hvac/restaurant-load-calculation/) | Calculate BTU/h cooling load for restaurant kitchens and dining areas |
-| [Office Open Plan Cooling Load Calculator](https://calcengineer.com/hvac/office-open-plan-cooling-load-calculator/) | Estimate cooling load for open-plan office spaces |
-| [Hotel Guest Room HVAC Sizing Calculator](https://calcengineer.com/hvac/hotel-guest-room-hvac-sizing/) | Size HVAC equipment for hotel guest rooms |
-| [Retail Store Lighting Heat Gain Calculator](https://calcengineer.com/hvac/retail-store-lighting-heat-gain/) | Calculate heat gain from lighting in retail spaces |
-| [Server Rack Heat Load Calculator](https://calcengineer.com/hvac/server-rack-heat-load/) | Calculate total IT load and heat dissipation from server racks |
-| [CRAC Unit Sizing Calculator](https://calcengineer.com/hvac/crac-unit-sizing/) | Size computer room air conditioning units from IT and other loads |
-| [Data Center CRAC Redundancy Calculator](https://calcengineer.com/hvac/data-center-crac-redundancy/) | Calculate remaining cooling capacity after N+1 CRAC unit failure |
-| [Hot Aisle Containment Efficiency Calculator](https://calcengineer.com/hvac/hot-aisle-containment-efficiency/) | Estimate cooling efficiency gains from hot aisle containment in data centers |
-| [Liquid Cooling Flow Rate Calculator](https://calcengineer.com/hvac/liquid-cooling-flow-rate/) | Calculate liquid coolant flow rate for electronics and server cooling |
-| [Elevator Machine Room Cooling Calculator](https://calcengineer.com/hvac/elevator-machine-room-cooling/) | Calculate cooling load for elevator machine rooms |
-| [Dehumidifier Sizing for Pools](https://calcengineer.com/hvac/dehumidifier-sizing-for-pools/) | Calculate natatorium dehumidifier capacity per ASHRAE 90.1 |
-| [Natatorium Evaporation Rate Calculator](https://calcengineer.com/hvac/natatorium-evaporation-rate/) | Calculate pool water evaporation rate and latent load for natatoriums |
-| [Dairy Barn Cooling Calculator](https://calcengineer.com/hvac/dairy-barn-cooling/) | Estimate cooling capacity to reduce heat stress in dairy cattle |
-| [Ice Rink Refrigeration Load Calculator](https://calcengineer.com/hvac/ice-rink-refrigeration-load-calculator/) | Calculate refrigeration load required to maintain ice surfaces |
-| [Spa Heat Up Time Calculator](https://calcengineer.com/hvac/spa-heat-up-time/) | Calculate time and energy required to heat a spa or hot tub |
-| [Wine Cellar Cooling Load Calculator](https://calcengineer.com/hvac/wine-cellar-cooling-load/) | Estimate cooling capacity for wine storage rooms |
-| [Subway Platform Heat Load Calculator](https://calcengineer.com/hvac/subway-platform-heat-load/) | Calculate heat load on subway station platforms from trains and passengers |
-| [VRF System Sizing Calculator](https://calcengineer.com/hvac/vrf-system-sizing-calculator/) | Size variable refrigerant flow systems from peak zone loads |
-| [Superheat/Subcooling Calculator](https://calcengineer.com/hvac/superheatsubcooling-calculator/) | Calculate refrigerant superheat and subcooling from pressure and temperature readings |
-| [Pool Heating Load Calculator](https://calcengineer.com/hvac/pool-heating-load/) | Calculate pool heating requirements from surface area and heat loss |
-
-### Heating & Boilers
-
-| Calculator | Description |
-|---|---|
-| [Boiler Efficiency Calculator](https://calcengineer.com/hvac/boiler-efficiency-calculator/) | Calculate boiler efficiency from useful heat output and fuel energy input |
-| [Boiler Feed Pump Sizing Calculator](https://calcengineer.com/hvac/boiler-feed-pump-sizing/) | Size boiler feed pumps for steam system applications |
-| [Flash Tank Sizing Calculator](https://calcengineer.com/hvac/flash-tank-sizing/) | Calculate flash tank volume and steam separation for condensate systems |
-| [Deaerator Vent Rate Calculator](https://calcengineer.com/hvac/deaerator-vent-rate/) | Calculate vent steam loss and deaerator oxygen removal efficiency |
-| [Steam Trap Capacity Calculator](https://calcengineer.com/hvac/steam-trap-capacity/) | Size steam traps from condensate load and differential pressure |
-| [District Heating Pipe Loss Calculator](https://calcengineer.com/hvac/district-heating-pipe-loss/) | Calculate heat loss from buried district heating pipes |
-| [Fuel Oil Tank Sizing Calculator](https://calcengineer.com/hvac/fuel-oil-tank-sizing/) | Size fuel oil storage tanks per NFPA 31 for HVAC boilers |
-| [Propane Tank Sizing Calculator](https://calcengineer.com/hvac/propane-tank-sizing/) | Estimate propane tank capacity from heating load and run time |
-| [Hydronic Balancing Calculator](https://calcengineer.com/hvac/hydronic-balancing-calculator/) | Check hydronic circuit balance by comparing actual vs design flow |
-| [Glycol Concentration Calculator](https://calcengineer.com/hvac/glycol-concentration-calculator/) | Calculate glycol concentration for HVAC and hydronic freeze protection |
-| [Heat Pump Size Calculator](https://calcengineer.com/hvac/heat-pump-size-calculator/) | Estimate heat pump capacity from design load and sizing margin |
-| [Ground Source Heat Pump COP Estimator](https://calcengineer.com/hvac/ground-source-heat-pump-cop-estimator/) | Estimate geothermal heat pump COP from source and load temperatures |
-| [Geothermal Loop Length Calculator](https://calcengineer.com/hvac/geothermal-loop-length/) | Calculate ground loop length for closed-loop geothermal HVAC systems |
-| [Radiant Floor Heating Output Calculator](https://calcengineer.com/hvac/radiant-floor-heating-output/) | Calculate heat output from radiant floor systems per m² or ft² |
-| [Snow Melt System Sizing Calculator](https://calcengineer.com/hvac/snow-melt-system-sizing/) | Size hydronic or electric snow melt systems for driveways and walkways |
-| [Warehouse Heating with Destratification Calculator](https://calcengineer.com/hvac/warehouse-heating-with-destratification/) | Calculate heating requirements with destratification fan systems |
-| [Aircraft Hangar Heating Calculator](https://calcengineer.com/hvac/aircraft-hangar-heating/) | Size heating systems for aircraft hangars |
-
-### Psychrometrics & Air Properties
-
-| Calculator | Description |
-|---|---|
-| [Psychrometric Calculator](https://calcengineer.com/hvac/psychrometric-calculator/) | Full psychrometric analysis from dry-bulb temperature and relative humidity |
-| [Enthalpy Calculator](https://calcengineer.com/hvac/enthalpy-calculator/) | Calculate specific enthalpy of moist air |
-| [Dew Point Temperature Calculator](https://calcengineer.com/hvac/dew-point-temperature-calculator/) | Calculate dew point from dry-bulb and relative humidity |
-| [Wet Bulb Temperature Calculator](https://calcengineer.com/hvac/wet-bulb-temperature-calculator/) | Calculate wet-bulb temperature from dry-bulb and relative humidity |
-| [Humidity Ratio Calculator](https://calcengineer.com/hvac/humidity-ratio-calculator/) | Calculate humidity ratio from temperature and moisture conditions |
-| [Specific Volume of Air Calculator](https://calcengineer.com/hvac/specific-volume-air-calculator/) | Calculate specific volume in m³/kg or ft³/lb for psychrometric use |
-| [Air Density Calculator](https://calcengineer.com/hvac/air-density-calculator/) | Calculate air density from temperature and atmospheric pressure |
-| [Humidification Load Calculator](https://calcengineer.com/hvac/humidification-load-calculator/) | Calculate moisture addition rate and humidifier capacity |
-| [Delta T Calculator](https://calcengineer.com/hvac/hvac-delta-t-calculator/) | Calculate temperature differential for heating and cooling systems |
-| [Altitude Correction for HVAC](https://calcengineer.com/hvac/altitude-correction-for-hvac/) | Apply altitude derating to HVAC equipment at elevation |
-| [Thermal Comfort PMV/PPD Calculator](https://calcengineer.com/hvac/thermal-comfort-pmvppd-calculator/) | Calculate Predicted Mean Vote and Predicted Percentage Dissatisfied per ASHRAE 55 |
-| [Adaptive Comfort Model Calculator](https://calcengineer.com/hvac/adaptive-comfort-calculator/) | Calculate thermal comfort acceptability per ASHRAE 55 adaptive model |
-| [Mold Risk Calculator](https://calcengineer.com/hvac/mold-risk-assessment/) | Assess mold growth risk from surface temperature and relative humidity |
-
-### Ventilation & Indoor Air Quality
-
-| Calculator | Description |
-|---|---|
-| [Ventilation Rate Calculator](https://calcengineer.com/hvac/ventilation-rate-calculator/) | Calculate outdoor air requirements per ASHRAE 62.1 |
-| [Return Air Ratio Calculator](https://calcengineer.com/hvac/return-air-ratio-calculator/) | Calculate return air ratio and outdoor air fraction |
-| [Supply Air Temperature Calculator](https://calcengineer.com/hvac/supply-air-temperature-calculator/) | Determine supply air temperature for heating and cooling mode |
-| [Makeup Air Unit Sizing Calculator](https://calcengineer.com/hvac/makeup-air-unit-sizing/) | Size makeup air units for commercial ventilation |
-| [School Classroom Ventilation Calculator](https://calcengineer.com/hvac/school-classroom-ventilation/) | Calculate required ventilation for school classrooms per ASHRAE 62.1 |
-| [Hospital Operating Room Airflow Calculator](https://calcengineer.com/hvac/hospital-operating-room-airflow-calculator/) | Calculate required supply airflow for hospital operating rooms |
-| [Indoor Air Quality CO2 Calculator](https://calcengineer.com/hvac/indoor-air-quality-co2-calculator/) | Estimate CO2 concentration from occupancy and ventilation rate |
-| [Cleanroom Air Change Rate Calculator](https://calcengineer.com/hvac/cleanroom-air-change-rate-calculator/) | Calculate air changes per hour for cleanroom ISO classifications |
-| [Pharmaceutical Cleanroom Cascade Pressure Calculator](https://calcengineer.com/hvac/pharmaceutical-cleanroom-cascade-pressure/) | Calculate cascade pressure differentials between pharmaceutical cleanroom zones |
-| [Animal Barn Ventilation Rate Calculator](https://calcengineer.com/hvac/animal-barn-ventilation-rate/) | Calculate ventilation requirements for livestock buildings |
-| [Poultry House Ammonia Control Calculator](https://calcengineer.com/hvac/poultry-house-ammonia-control/) | Estimate ventilation needed to control ammonia levels in poultry housing |
-| [Greenhouse Heating and Ventilation Calculator](https://calcengineer.com/hvac/greenhouse-heating-and-ventilation-calculator/) | Calculate heating and ventilation for greenhouse structures |
-| [Blower Door Test CFM50 Calculator](https://calcengineer.com/hvac/blower-door-test-cfm50/) | Calculate ACH50 and infiltration from blower door test results |
-| [Building Envelope Tightness Calculator](https://calcengineer.com/hvac/building-envelope-tightness/) | Assess building envelope air tightness from blower door data |
-| [Radon Mitigation System Sizing Calculator](https://calcengineer.com/hvac/radon-mitigation-system-sizing/) | Size sub-slab depressurization systems for radon mitigation |
-| [VOC Concentration Estimator](https://calcengineer.com/hvac/voc-concentration-estimator/) | Estimate indoor VOC concentration from emission rate and ventilation airflow |
-| [Laboratory Fume Hood Diversity Factor Calculator](https://calcengineer.com/hvac/laboratory-fume-hood-diversity-factor/) | Calculate diversity factor for multi-hood laboratory exhaust systems |
-| [Paint Booth Ventilation Calculator](https://calcengineer.com/hvac/paint-booth-ventilation/) | Calculate required airflow for spray paint booth ventilation and solvent dilution |
-| [Parking Garage CO Ventilation Calculator](https://calcengineer.com/hvac/parking-garage-co-ventilation/) | Calculate ventilation airflow to control CO levels in parking garages |
-| [Mine Ventilation Airflow Calculator](https://calcengineer.com/hvac/mine-ventilation-airflow/) | Calculate minimum ventilation airflow requirements for underground mines |
-| [Ship Engine Room Ventilation Calculator](https://calcengineer.com/hvac/ship-engine-room-ventilation/) | Calculate ventilation requirements for marine engine rooms |
-| [Tunnel Ventilation Rate Calculator](https://calcengineer.com/hvac/tunnel-ventilation-rate/) | Calculate airflow required for road tunnel ventilation and pollutant dilution |
-| [Vehicle Exhaust Extraction Calculator](https://calcengineer.com/hvac/vehicle-exhaust-extraction/) | Calculate capture airflow for vehicle exhaust extraction systems |
-| [Transformer Room Ventilation Calculator](https://calcengineer.com/hvac/transformer-room-ventilation/) | Calculate ventilation for transformer rooms from heat dissipation |
-| [Welding Fume Extraction Calculator](https://calcengineer.com/hvac/welding-fume-extraction-rate/) | Calculate required airflow for welding fume extraction systems |
-
-### Heat Exchangers & Energy Recovery
-
-| Calculator | Description |
-|---|---|
-| [Heat Exchanger Calculator](https://calcengineer.com/hvac/heat-exchanger-calculator/) | Thermal sizing using LMTD or effectiveness-NTU method |
-| [Energy Recovery Wheel Efficiency Calculator](https://calcengineer.com/hvac/energy-recovery-wheel-efficiency-calculator/) | Calculate sensible, latent, and total effectiveness of energy recovery wheels |
-| [Commercial Kitchen Energy Recovery Calculator](https://calcengineer.com/hvac/commercial-kitchen-energy-recovery/) | Estimate heat recovery potential and payback for kitchen exhaust systems |
-| [Waste Heat Recovery Efficiency Calculator](https://calcengineer.com/hvac/waste-heat-recovery-efficiency/) | Calculate recoverable heat and efficiency from industrial exhaust streams |
-
-### Lighting & Environment
-
-| Calculator | Description |
-|---|---|
-| [Daylight Factor Calculator](https://calcengineer.com/hvac/daylight-factor-calculator/) | Calculate daylight factor and indoor daylight illuminance |
-| [Glare Index Calculator](https://calcengineer.com/hvac/glare-index-calculator/) | Calculate glare index and visual comfort for interior lighting |
-| [Adaptive Comfort Model Calculator](https://calcengineer.com/hvac/adaptive-comfort-calculator/) | Calculate thermal comfort acceptability per ASHRAE 55 adaptive model |
-
-### Specialized Applications
-
-| Calculator | Description |
-|---|---|
-| [HVAC Efficiency Calculator](https://calcengineer.com/hvac/hvac-efficiency-calculator/) | Calculate overall HVAC system efficiency from output and input energy |
-| [Condensate Pump Sizing Calculator](https://calcengineer.com/hvac/condensate-pump-sizing/) | Calculate condensate pump capacity from cooling load and SHR |
-| [Refrigerant Charge Calculator](https://calcengineer.com/hvac/refrigerant-charge-calculator/) | Calculate refrigerant charge adjustment for line length variations |
-| [Archive Climate Control Calculator](https://calcengineer.com/hvac/archive-climate-control/) | Calculate climate requirements for archival storage rooms |
-| [Library Book Storage Temperature Calculator](https://calcengineer.com/hvac/library-book-storage-temperature/) | Determine recommended temperature and humidity for book preservation |
-| [Museum Artifact Preservation Humidity Calculator](https://calcengineer.com/hvac/museum-artifact-preservation-humidity/) | Calculate optimal humidity ranges for museum artifact preservation |
-| [Window U-Value & SHGC Selector](https://calcengineer.com/hvac/window-u-value-and-shgc-selector/) | Select window U-value and SHGC based on climate zone and orientation |
-| [Passive House PHPP Energy Balance Calculator](https://calcengineer.com/hvac/passive-house-phpp-energy-balance/) | Estimate annual heating demand per Passive House Planning Package methodology |
-| [Net Zero Energy Feasibility Calculator](https://calcengineer.com/hvac/net-zero-energy-feasibility/) | Assess net-zero energy feasibility from building loads and renewable generation |
+CalcEngineer covers every major calculation needed by HVAC engineers, electrical engineers,
+and MEP designers — from basic load calculations to advanced code-compliance tools.
 
 ---
 
-## Electrical Calculators (70)
+## 🌡️ HVAC & Mechanical (124)
 
-### Voltage, Power & Conversions
-
-| Calculator | Description |
-|---|---|
-| [Ohm's Law Calculator](https://calcengineer.com/electrical/ohms-law-calculator/) | Solve for voltage, current, resistance, or power from any two inputs using Ohm's Law |
-| [Single-Phase Power Calculator](https://calcengineer.com/electrical/single-phase-power-calculator/) | Calculate single-phase real (kW), apparent (kVA), and reactive power from voltage, current, and power factor |
-| [Three-Phase Power Calculator](https://calcengineer.com/electrical/three-phase-power-calculator/) | Calculate apparent, active, and reactive power for three-phase systems |
-| [Power Factor Calculator](https://calcengineer.com/electrical/power-factor-calculator/) | Calculate power factor from real and apparent power with status classification |
-| [Power Loss Calculator](https://calcengineer.com/electrical/power-loss-calculator/) | Calculate power loss (kW), loss percentage, and efficiency from input and output power |
-| [Voltage Drop Calculator](https://calcengineer.com/electrical/voltage-drop-calculator/) | Calculate voltage drop and percentage from load current and wire length |
-| [Voltage Drop Calculator — NEC (Copper)](https://calcengineer.com/electrical/voltage-drop-calculator-nec-copper/) | NEC-compliant voltage drop for copper conductors |
-| [Voltage Drop Calculator — NEC (Aluminum)](https://calcengineer.com/electrical/voltage-drop-calculator-nec-aluminum/) | NEC-compliant voltage drop for aluminum conductors |
-| [Lighting Circuit Voltage Drop Calculator](https://calcengineer.com/electrical/lighting-circuit-voltage-drop/) | Calculate voltage drop and load voltage for lighting branch circuits |
-| [Voltage Divider Calculator](https://calcengineer.com/electrical/voltage-divider-calculator/) | Calculate output voltage and resistor values for voltage divider circuits |
-| [kVA to Amps Calculator](https://calcengineer.com/electrical/kva-to-amps-calculator/) | Convert kVA to amps for single-phase and three-phase systems |
-| [kVA to kW Calculator](https://calcengineer.com/electrical/kva-to-kw-calculator/) | Convert apparent power to real power using power factor |
-| [kW to kVA Calculator](https://calcengineer.com/electrical/kw-to-kva-calculator/) | Convert real power to apparent power using power factor |
-
-### Protection & Safety
-
-| Calculator | Description |
-|---|---|
-| [Breaker Size Calculator](https://calcengineer.com/electrical/breaker-size-calculator/) | Estimate circuit breaker size from load current per NEC |
-| [AFCI Zone Calculator](https://calcengineer.com/electrical/afci-zone-calculator/) | Determine AFCI protection requirements by room and circuit type |
-| [GFCI Protection Requirements Calculator](https://calcengineer.com/electrical/gfci-protection-requirements-calculator/) | Identify GFCI protection needs by location and circuit type |
-| [Arc Flash Energy Calculator (NEC)](https://calcengineer.com/electrical/arc-flash-energy-calculator-nec/) | Calculate incident energy and arc flash boundaries per NFPA 70E |
-| [Surge Protection Device Rating Calculator](https://calcengineer.com/electrical/surge-protection-device-rating/) | Select SPD type by location, size MCOV from system voltage, and verify SCCR adequacy |
-| [Lightning Protection Zone Calculator](https://calcengineer.com/electrical/lightning-protection-zone/) | Determine lightning protection zone using rolling sphere method for LPS Class I–IV |
-| [Switchgear Short Circuit Rating Calculator](https://calcengineer.com/electrical/switchgear-short-circuit-rating/) | Calculate available fault current at switchgear bus from transformer data and verify SCCR rating |
-
-### Wiring & Conductors
-
-| Calculator | Description |
-|---|---|
-| [Wire Size / Ampacity Calculator (NEC)](https://calcengineer.com/electrical/wire-size-ampacity-nec-calculator/) | Calculate NEC wire ampacity with 4-step derating: base, ambient, bundling, and terminal correction |
-| [Cable Ampacity Calculator](https://calcengineer.com/electrical/cable-ampacity-calculator/) | Calculate conductor ampacity with derating for temperature and conduit fill |
-| [Conduit Fill Calculator (NEC)](https://calcengineer.com/electrical/conduit-fill-calculator-nec/) | Calculate NEC conduit fill percentage for EMT, RMC, IMC, PVC, and other conduit types per Chapter 9 |
-| [Service Entrance Size Calculator](https://calcengineer.com/electrical/service-entrance-size-calculator/) | Size residential service entrance per NEC Article 220 using Standard or Optional Method |
-| [Cable Pulling Tension Calculator](https://calcengineer.com/electrical/cable-pulling-tension/) | Calculate maximum pulling tension for cable installation in conduit |
-| [Cable Tray Fill Calculator (NEC)](https://calcengineer.com/electrical/cable-tray-fill-calculator-nec/) | Check cable tray fill compliance per NEC Article 392 |
-| [Cable Tray Ventilation Calculator](https://calcengineer.com/electrical/cable-tray-ventilation/) | Calculate ventilation requirements for enclosed cable tray systems |
-| [Busbar Sizing for Temperature Rise Calculator](https://calcengineer.com/electrical/busbar-sizing-for-temperature-rise/) | Calculate busbar cross-section from design current and temperature rise |
-
-### Motors & Drives
-
-| Calculator | Description |
-|---|---|
-| [Motor Current Calculator](https://calcengineer.com/electrical/motor-current-calculator/) | Calculate full-load current for AC motors from horsepower and voltage |
-| [Motor Torque Calculator](https://calcengineer.com/electrical/motor-torque-calculator/) | Calculate motor torque from power, speed, and efficiency |
-| [Motor Acceleration Time Calculator](https://calcengineer.com/electrical/motor-acceleration-time/) | Estimate motor run-up time from inertia, torque, and rated speed |
-| [Soft Starter Sizing Calculator](https://calcengineer.com/electrical/soft-starter-sizing/) | Size soft starter rated current with derating for ambient temperature, altitude, and duty cycle |
-| [VFD Parameter Selection Calculator](https://calcengineer.com/electrical/vfd-parameter-selection/) | Select key VFD parameters from motor nameplate and application data |
-
-### Distribution & Switching
-
-| Calculator | Description |
-|---|---|
-| [Transformer Sizing Calculator](https://calcengineer.com/electrical/transformer-sizing-calculator/) | Size transformer from load data; recommend standard kVA size and show utilization percentage |
-| [Transfer Switch Sizing Calculator](https://calcengineer.com/electrical/transfer-switch-sizing/) | Size transfer switch in amps per NEC Article 702 with 125% continuous load factor applied |
-| [Demand Factor Calculator (NEC)](https://calcengineer.com/electrical/demand-factor-calculator-nec/) | Apply NEC demand factor to connected load in VA/kVA; get demand load and reduction percentage |
-
-### Power Quality & Harmonics
-
-| Calculator | Description |
-|---|---|
-| [Harmonic Distortion Calculator](https://calcengineer.com/electrical/harmonic-distortion-calculator/) | Calculate total harmonic distortion (THD) from harmonic component magnitudes |
-| [Harmonic Filter Design Calculator](https://calcengineer.com/electrical/harmonic-filter-design/) | Design passive harmonic filters for power quality improvement |
-| [CT Burden Calculator](https://calcengineer.com/electrical/ct-burden-calculator/) | Calculate current transformer burden from connected load impedances |
-| [Capacitor Sizing for Power Factor Correction](https://calcengineer.com/electrical/capacitor-sizing-for-power-factor-correction/) | Calculate capacitor bank size to improve power factor to a target value |
-| [Power Quality Analyzer Fit Tool](https://calcengineer.com/electrical/power-quality-analyzer-estimator/) | Assess power quality analyzer suitability by site voltage, phases, harmonics, and logging requirements |
-
-### Energy Storage & Backup
-
-| Calculator | Description |
-|---|---|
-| [Battery Bank Calculator](https://calcengineer.com/electrical/battery-bank-calculator/) | Calculate required battery capacity from load and autonomy time |
-| [Battery Bank Sizing for Off-Grid](https://calcengineer.com/electrical/battery-bank-sizing-for-off-grid/) | Size battery banks for off-grid power systems |
-| [Battery Capacity (Ah) Calculator](https://calcengineer.com/electrical/battery-capacity-ah-calculator/) | Calculate required amp-hour capacity from load power and runtime |
-| [Battery Life Calculator](https://calcengineer.com/electrical/battery-life-calculator/) | Estimate battery runtime from capacity and discharge current |
-| [UPS Battery Runtime Calculator](https://calcengineer.com/electrical/ups-battery-runtime-calculator/) | Calculate UPS backup runtime from battery capacity and load |
-| [UPS Sizing Calculator](https://calcengineer.com/electrical/ups-sizing-calculator/) | Size UPS systems from connected load, power factor, and growth margin |
-| [Microgrid Battery Storage Sizing Calculator](https://calcengineer.com/electrical/microgrid-battery-storage-sizing/) | Size battery storage for microgrid islanding and peak shaving |
-| [Smart Grid Peak Shaving Calculator](https://calcengineer.com/electrical/smart-grid-peak-shaving-calculator/) | Size battery energy storage for peak shaving with demand charge savings and payback calculation |
-| [Demand Response Load Shedding Calculator](https://calcengineer.com/electrical/demand-response-load-shedding/) | Check if available shed load meets a demand response target; get required cut and remaining demand |
-
-### Grounding & Earthing
-
-| Calculator | Description |
-|---|---|
-| [Ground Resistance Calculator](https://calcengineer.com/electrical/ground-resistance-calculator/) | Calculate ground electrode resistance from soil resistivity and electrode geometry |
-| [Ground Ring Resistance Calculator](https://calcengineer.com/electrical/ground-ring-resistance/) | Calculate resistance of a buried ground ring from dimensions and soil data |
-| [Grounding Electrode Resistance Calculator](https://calcengineer.com/electrical/grounding-electrode-resistance/) | Calculate grounding electrode resistance per IEEE 80 and NEC requirements |
-
-### Renewable Energy & Generation
-
-| Calculator | Description |
-|---|---|
-| [Solar Charge Controller Sizing Calculator](https://calcengineer.com/electrical/solar-charge-controller-sizing-calculator/) | Size solar charge controllers from panel array and battery specifications |
-| [Wind Turbine Power Output Calculator](https://calcengineer.com/electrical/wind-turbine-power-output/) | Calculate wind turbine power output from wind speed, rotor size, and efficiency |
-| [Generator Sizing Calculator](https://calcengineer.com/electrical/generator-sizing-calculator/) | Size standby or prime generators from connected load and demand factor |
-| [Generator Fuel Consumption Calculator](https://calcengineer.com/electrical/generator-fuel-consumption/) | Estimate diesel or gas generator fuel consumption from load and runtime |
-| [Cogeneration CHP Sizing Calculator](https://calcengineer.com/electrical/cogeneration-chp-sizing/) | Size combined heat and power systems from thermal and electrical loads |
-| [Microgrid Stability Estimator](https://calcengineer.com/electrical/microgrid-stability-estimator/) | Assess microgrid frequency and voltage stability margins under islanded operation |
-| [Antenna Gain Calculator](https://calcengineer.com/electrical/antenna-gain-calculator/) | Calculate antenna gain from directivity and radiation efficiency |
-
-### Lighting
-
-| Calculator | Description |
-|---|---|
-| [Lighting Level Calculator (IES)](https://calcengineer.com/electrical/lighting-level-calculator-ies/) | Estimate average maintained illuminance via lumen method from lumens, CU, LLF, and area |
-
-### Passive Components
-
-| Calculator | Description |
-|---|---|
-| [Series/Parallel Resistor Calculator](https://calcengineer.com/electrical/seriesparallel-resistor-calculator/) | Calculate equivalent resistance for 2–20 resistors in series or parallel with E-series standard matching |
-| [Capacitor Bank Calculator](https://calcengineer.com/electrical/capacitor-bank-calculator/) | Calculate total capacitance and reactive power from capacitor bank configuration |
-| [Capacitor Charge/Discharge Time Calculator](https://calcengineer.com/electrical/capacitor-chargedischarge-time-calculator/) | Calculate RC circuit charge and discharge time constants |
-| [Inductor Design Calculator](https://calcengineer.com/electrical/inductor-design-calculator/) | Calculate inductor parameters from core geometry and winding specifications |
-| [Inductor Energy Storage Calculator](https://calcengineer.com/electrical/inductor-energy-storage-calculator/) | Calculate energy stored in an inductor from inductance and current |
-| [Inductor Reactance Calculator](https://calcengineer.com/electrical/inductor-reactance-calculator/) | Calculate inductive reactance X_L = 2πfL at any frequency |
-
-### Electronics & Signals
-
-| Calculator | Description |
-|---|---|
-| [Op-Amp Gain Calculator](https://calcengineer.com/electrical/op-amp-gain-calculator/) | Calculate op-amp gain for inverting, non-inverting, voltage follower, difference, and summing topologies |
-| [Op-Amp Inverting/Non-Inverting Calculator](https://calcengineer.com/electrical/op-amp-invertingnon-inverting-calculator/) | Calculate gain, bandwidth, bias compensation resistor, and output offset for precision op-amp designs |
-| [Signal Propagation Delay Calculator](https://calcengineer.com/electrical/signal-propagation-delay/) | Calculate one-way signal propagation delay from path length and propagation speed |
+* [AC Tonnage Calculator](https://calcengineer.com/calculators/ac-tonnage-calculator)
+* [Adaptive Comfort Model Calculator](https://calcengineer.com/calculators/adaptive-comfort-calculator)
+* [Air Changes per Hour Calculator](https://calcengineer.com/calculators/air-changes-per-hour-calculator)
+* [Air Density Calculator](https://calcengineer.com/calculators/air-density-calculator)
+* [Air Velocity Calculator | Calculate FPM, ft/s & m/s from Airflow and Area](https://calcengineer.com/calculators/air-velocity-calculator)
+* [Aircraft Hangar Heating Calculator](https://calcengineer.com/calculators/aircraft-hangar-heating)
+* [Altitude Correction for HVAC](https://calcengineer.com/calculators/altitude-correction-for-hvac)
+* [Animal Barn Ventilation Rate Calculator](https://calcengineer.com/calculators/animal-barn-ventilation-rate)
+* [Archive Climate Control Calculator](https://calcengineer.com/calculators/archive-climate-control)
+* [Blower Door Test CFM50 Calculator](https://calcengineer.com/calculators/blower-door-test-cfm50)
+* [Boiler Efficiency Calculator](https://calcengineer.com/calculators/boiler-efficiency-calculator)
+* [Boiler Feed Pump Sizing Calculator](https://calcengineer.com/calculators/boiler-feed-pump-sizing)
+* [Building Envelope Tightness Calculator](https://calcengineer.com/calculators/building-envelope-tightness)
+* [CFM Calculator](https://calcengineer.com/calculators/cfm-calculator)
+* [Chiller Capacity Calculator](https://calcengineer.com/calculators/chiller-capacity-calculator)
+* [Chiller Efficiency Calculator (IPLV)](https://calcengineer.com/calculators/chiller-efficiency-calculator-iplv)
+* [Cleanroom Air Change Rate Calculator](https://calcengineer.com/calculators/cleanroom-air-change-rate-calculator)
+* [Coil Capacity Calculator](https://calcengineer.com/calculators/coil-capacity-calculator)
+* [Cold Storage Door Infiltration Calculator](https://calcengineer.com/calculators/cold-storage-door-infiltration)
+* [Commercial Kitchen Energy Recovery Calculator](https://calcengineer.com/calculators/commercial-kitchen-energy-recovery)
+* [Condensate Pump Sizing Calculator](https://calcengineer.com/calculators/condensate-pump-sizing)
+* [Cool Roof Energy Savings Calculator](https://calcengineer.com/calculators/cool-roof-energy-savings-calculator)
+* [Cooling Load Calculator](https://calcengineer.com/calculators/cooling-load-calculator)
+* [Cooling Tower Approach Calculator](https://calcengineer.com/calculators/cooling-tower-approach-calculator)
+* [Cooling Tower Calculator](https://calcengineer.com/calculators/cooling-tower-calculator)
+* [CRAC Unit Sizing Calculator](https://calcengineer.com/calculators/crac-unit-sizing)
+* [Dairy Barn Cooling Calculator](https://calcengineer.com/calculators/dairy-barn-cooling)
+* [Data Center CRAC Redundancy Calculator](https://calcengineer.com/calculators/data-center-crac-redundancy)
+* [Daylight Factor Calculator](https://calcengineer.com/calculators/daylight-factor-calculator)
+* [Deaerator Vent Rate Calculator](https://calcengineer.com/calculators/deaerator-vent-rate)
+* [Dehumidifier Sizing for Pools](https://calcengineer.com/calculators/dehumidifier-sizing-for-pools)
+* [Dew Point Temperature Calculator](https://calcengineer.com/calculators/dew-point-temperature-calculator)
+* [District Heating Pipe Loss Calculator](https://calcengineer.com/calculators/district-heating-pipe-loss)
+* [Duct Friction Loss Calculator](https://calcengineer.com/calculators/duct-friction-loss-calculator)
+* [Duct Insulation Loss Calculator](https://calcengineer.com/calculators/duct-insulation-loss-calculator)
+* [Duct Pressure Drop Calculator](https://calcengineer.com/calculators/duct-pressure-drop-calculator)
+* [Duct Size Calculator](https://calcengineer.com/calculators/duct-size-calculator)
+* [Duct Velocity Calculator](https://calcengineer.com/calculators/duct-velocity-calculator)
+* [Dust Collection System Sizing Calculator](https://calcengineer.com/calculators/dust-collection-system-sizing)
+* [Elevator Machine Room Cooling Calculator](https://calcengineer.com/calculators/elevator-machine-room-cooling)
+* [Energy Recovery Wheel Efficiency Calculator](https://calcengineer.com/calculators/energy-recovery-wheel-efficiency-calculator)
+* [Enthalpy Calculator](https://calcengineer.com/calculators/enthalpy-calculator)
+* [Fan Efficiency Calculator](https://calcengineer.com/calculators/fan-efficiency-calculator)
+* [Fan Law Calculator](https://calcengineer.com/calculators/fan-law-calculator)
+* [Fan Power Calculator](https://calcengineer.com/calculators/fan-power-calculator)
+* [Flash Tank Sizing Calculator](https://calcengineer.com/calculators/flash-tank-sizing)
+* [Fuel Oil Tank Sizing Calculator](https://calcengineer.com/calculators/fuel-oil-tank-sizing)
+* [Fume Hood Face Velocity Calculator](https://calcengineer.com/calculators/fume-hood-face-velocity-calculator)
+* [Geothermal Loop Length Calculator](https://calcengineer.com/calculators/geothermal-loop-length)
+* [Glare Index Calculator](https://calcengineer.com/calculators/glare-index-calculator)
+* [Glycol Concentration Calculator](https://calcengineer.com/calculators/glycol-concentration-calculator)
+* [Grain Dryer Airflow Calculator](https://calcengineer.com/calculators/grain-dryer-airflow)
+* [Grease Duct Sizing Calculator](https://calcengineer.com/calculators/grease-duct-sizing)
+* [Greenhouse Heating and Ventilation Calculator](https://calcengineer.com/calculators/greenhouse-heating-and-ventilation-calculator)
+* [Ground Source Heat Pump COP Estimator](https://calcengineer.com/calculators/ground-source-heat-pump-cop-estimator)
+* [Heat Exchanger Calculator](https://calcengineer.com/calculators/heat-exchanger-calculator)
+* [Heat Pump Size Calculator](https://calcengineer.com/calculators/heat-pump-size-calculator)
+* [Hospital Operating Room Airflow Calculator](https://calcengineer.com/calculators/hospital-operating-room-airflow-calculator)
+* [Hot Aisle Containment Efficiency Calculator](https://calcengineer.com/calculators/hot-aisle-containment-efficiency)
+* [Hotel Guest Room HVAC Sizing Calculator](https://calcengineer.com/calculators/hotel-guest-room-hvac-sizing)
+* [Humidification Load Calculator](https://calcengineer.com/calculators/humidification-load-calculator)
+* [Humidity Ratio Calculator](https://calcengineer.com/calculators/humidity-ratio-calculator)
+* [Delta T Calculator](https://calcengineer.com/calculators/hvac-delta-t-calculator)
+* [HVAC Efficiency Calculator](https://calcengineer.com/calculators/hvac-efficiency-calculator)
+* [HVAC Heat Load Calculator](https://calcengineer.com/calculators/hvac-heat-load-calculator)
+* [Hydronic Balancing Calculator](https://calcengineer.com/calculators/hydronic-balancing-calculator)
+* [Ice Rink Refrigeration Load Calculator](https://calcengineer.com/calculators/ice-rink-refrigeration-load-calculator)
+* [Indoor Air Quality CO2 Calculator](https://calcengineer.com/calculators/indoor-air-quality-co2-calculator)
+* [Kitchen Hood Exhaust CFM Calculator](https://calcengineer.com/calculators/kitchen-hood-exhaust-cfm)
+* [Laboratory Fume Hood Diversity Factor Calculator](https://calcengineer.com/calculators/laboratory-fume-hood-diversity-factor)
+* [Latent Heat Load Calculator](https://calcengineer.com/calculators/latent-heat-load-calculator)
+* [Library Book Storage Temperature Calculator](https://calcengineer.com/calculators/library-book-storage-temperature)
+* [Liquid Cooling Flow Rate Calculator](https://calcengineer.com/calculators/liquid-cooling-flow-rate)
+* [Makeup Air Unit Sizing Calculator](https://calcengineer.com/calculators/makeup-air-unit-sizing)
+* [Mine Ventilation Airflow Calculator](https://calcengineer.com/calculators/mine-ventilation-airflow)
+* [Mold Risk Calculator](https://calcengineer.com/calculators/mold-risk-assessment)
+* [Museum Artifact Preservation Humidity Calculator](https://calcengineer.com/calculators/museum-artifact-preservation-humidity)
+* [Natatorium Evaporation Rate Calculator](https://calcengineer.com/calculators/natatorium-evaporation-rate)
+* [Net Zero Energy Feasibility Calculator | kWh/m²·yr & kBtu/ft²·yr](https://calcengineer.com/calculators/net-zero-energy-feasibility)
+* [Office Open Plan Cooling Load Calculator](https://calcengineer.com/calculators/office-open-plan-cooling-load-calculator)
+* [Paint Booth Ventilation Calculator | CFM & m³/h](https://calcengineer.com/calculators/paint-booth-ventilation)
+* [Parking Garage CO Ventilation Calculator | CFM & m³/h](https://calcengineer.com/calculators/parking-garage-co-ventilation)
+* [Passive House PHPP Energy Balance Calculator](https://calcengineer.com/calculators/passive-house-phpp-energy-balance)
+* [Pharmaceutical Cleanroom Cascade Pressure Calculator](https://calcengineer.com/calculators/pharmaceutical-cleanroom-cascade-pressure)
+* [Pool Heating Load Calculator](https://calcengineer.com/calculators/pool-heating-load)
+* [Poultry House Ammonia Control Calculator](https://calcengineer.com/calculators/poultry-house-ammonia-control)
+* [Propane Tank Sizing Calculator](https://calcengineer.com/calculators/propane-tank-sizing)
+* [Psychrometric Calculator](https://calcengineer.com/calculators/psychrometric-calculator)
+* [Radiant Floor Heating Output Calculator](https://calcengineer.com/calculators/radiant-floor-heating-output)
+* [Radon Mitigation System Sizing Calculator](https://calcengineer.com/calculators/radon-mitigation-system-sizing)
+* [Raised Floor Pressure Drop Calculator](https://calcengineer.com/calculators/raised-floor-pressure-drop)
+* [Refrigerant Charge Calculator](https://calcengineer.com/calculators/refrigerant-charge-calculator)
+* [Refrigeration Load Calculator](https://calcengineer.com/calculators/refrigeration-load-calculator)
+* [Restaurant Cooling Load Calculator](https://calcengineer.com/calculators/restaurant-load-calculation)
+* [Retail Store Lighting Heat Gain Calculator](https://calcengineer.com/calculators/retail-store-lighting-heat-gain)
+* [Return Air Ratio Calculator](https://calcengineer.com/calculators/return-air-ratio-calculator)
+* [School Classroom Ventilation Calculator](https://calcengineer.com/calculators/school-classroom-ventilation)
+* [Sensible Heat Ratio Calculator](https://calcengineer.com/calculators/sensible-heat-ratio-calculator)
+* [Server Rack Heat Load Calculator](https://calcengineer.com/calculators/server-rack-heat-load)
+* [Ship Engine Room Ventilation Calculator](https://calcengineer.com/calculators/ship-engine-room-ventilation)
+* [Silo Aeration Fan Sizing Calculator](https://calcengineer.com/calculators/silo-aeration-fan-sizing)
+* [Snow Melt System Sizing Calculator](https://calcengineer.com/calculators/snow-melt-system-sizing)
+* [Sound Attenuation in Ducts Calculator](https://calcengineer.com/calculators/sound-attenuation-in-ducts-calculator)
+* [Spa Heat Up Time Calculator](https://calcengineer.com/calculators/spa-heat-up-time)
+* [Specific Volume of Air Calculator](https://calcengineer.com/calculators/specific-volume-air-calculator)
+* [Static Pressure Calculator](https://calcengineer.com/calculators/static-pressure-calculator)
+* [Steam Trap Capacity Calculator](https://calcengineer.com/calculators/steam-trap-capacity)
+* [Subway Platform Heat Load Calculator](https://calcengineer.com/calculators/subway-platform-heat-load)
+* [Superheat/Subcooling Calculator](https://calcengineer.com/calculators/superheatsubcooling-calculator)
+* [Supply Air Temperature Calculator](https://calcengineer.com/calculators/supply-air-temperature-calculator)
+* [Thermal Comfort PMV/PPD Calculator](https://calcengineer.com/calculators/thermal-comfort-pmvppd-calculator)
+* [Transformer Room Ventilation Calculator](https://calcengineer.com/calculators/transformer-room-ventilation)
+* [Tunnel Ventilation Rate Calculator](https://calcengineer.com/calculators/tunnel-ventilation-rate)
+* [Vehicle Exhaust Extraction Calculator | CFM, m³/h](https://calcengineer.com/calculators/vehicle-exhaust-extraction)
+* [Velocity Pressure Calculator](https://calcengineer.com/calculators/velocity-pressure-calculator)
+* [Ventilation Rate Calculator](https://calcengineer.com/calculators/ventilation-rate-calculator)
+* [VOC Concentration Estimator](https://calcengineer.com/calculators/voc-concentration-estimator)
+* [VRF System Sizing Calculator](https://calcengineer.com/calculators/vrf-system-sizing-calculator)
+* [Warehouse Heating with Destratification Calculator](https://calcengineer.com/calculators/warehouse-heating-with-destratification)
+* [Waste Heat Recovery Efficiency | BTU/h, kW, %](https://calcengineer.com/calculators/waste-heat-recovery-efficiency)
+* [Welding Fume Extraction Calculator | CFM, m³/h](https://calcengineer.com/calculators/welding-fume-extraction-rate)
+* [Wet Bulb Temperature Calculator](https://calcengineer.com/calculators/wet-bulb-temperature-calculator)
+* [Window U-Value & SHGC Selector](https://calcengineer.com/calculators/window-u-value-and-shgc-selector)
+* [Wine Cellar Cooling Load Calculator](https://calcengineer.com/calculators/wine-cellar-cooling-load)
 
 ---
 
-## Standards Referenced
+## ⚡ Electrical & Electronics (71)
 
-CalcEngineer calculators are built on recognized engineering standards:
-
-- **ASHRAE** — Fundamentals Handbook, Standard 55 (Thermal Comfort), Standard 62.1 (Ventilation), Standard 90.1 (Energy)
-- **SMACNA** — HVAC Duct Construction Standards, Duct Design Manual
-- **NEC / NFPA 70** — National Electrical Code (breaker sizing, voltage drop, arc flash)
-- **NFPA 70E** — Electrical Safety in the Workplace (arc flash boundaries)
-- **NFPA 31** — Standard for the Installation of Oil-Burning Equipment
-- **IEEE 80** — Guide for Safety in AC Substation Grounding
-- **IES** — Lighting handbook (illuminance levels and lumen method)
-- **IMC** — International Mechanical Code
-- **ASABE** — Agricultural and Biological Engineering standards (grain drying)
+* [AFCI Zone Calculator](https://calcengineer.com/calculators/afci-zone-calculator)
+* [Antenna Gain Calculator](https://calcengineer.com/calculators/antenna-gain-calculator)
+* [Arc Flash Energy Calculator (NEC)](https://calcengineer.com/calculators/arc-flash-energy-calculator-nec)
+* [Battery Bank Calculator](https://calcengineer.com/calculators/battery-bank-calculator)
+* [Battery Bank Sizing for Off-Grid](https://calcengineer.com/calculators/battery-bank-sizing-for-off-grid)
+* [Battery Capacity (Ah) Calculator](https://calcengineer.com/calculators/battery-capacity-ah-calculator)
+* [Battery Life Calculator](https://calcengineer.com/calculators/battery-life-calculator)
+* [Breaker Size Calculator](https://calcengineer.com/calculators/breaker-size-calculator)
+* [Busbar Sizing for Temperature Rise Calculator](https://calcengineer.com/calculators/busbar-sizing-for-temperature-rise)
+* [Cable Ampacity Calculator](https://calcengineer.com/calculators/cable-ampacity-calculator)
+* [Cable Pulling Tension Calculator](https://calcengineer.com/calculators/cable-pulling-tension)
+* [Cable Tray Fill Calculator (NEC)](https://calcengineer.com/calculators/cable-tray-fill-calculator-nec)
+* [Cable Tray Ventilation Calculator](https://calcengineer.com/calculators/cable-tray-ventilation)
+* [Capacitor Bank Calculator](https://calcengineer.com/calculators/capacitor-bank-calculator)
+* [Capacitor Charge/Discharge Time Calculator](https://calcengineer.com/calculators/capacitor-chargedischarge-time-calculator)
+* [Capacitor Sizing for Power Factor Correction](https://calcengineer.com/calculators/capacitor-sizing-for-power-factor-correction)
+* [Cogeneration CHP Sizing Calculator](https://calcengineer.com/calculators/cogeneration-chp-sizing)
+* [Conduit Fill Calculator (NEC)](https://calcengineer.com/calculators/conduit-fill-calculator-nec)
+* [CT Burden Calculator](https://calcengineer.com/calculators/ct-burden-calculator)
+* [Demand Factor Calculator (NEC)](https://calcengineer.com/calculators/demand-factor-calculator-nec)
+* [Demand Response Load Shedding Calculator](https://calcengineer.com/calculators/demand-response-load-shedding)
+* [Generator Fuel Consumption Calculator](https://calcengineer.com/calculators/generator-fuel-consumption)
+* [Generator Sizing Calculator](https://calcengineer.com/calculators/generator-sizing-calculator)
+* [GFCI Protection Requirements Calculator](https://calcengineer.com/calculators/gfci-protection-requirements-calculator)
+* [Ground Resistance Calculator](https://calcengineer.com/calculators/ground-resistance-calculator)
+* [Ground Ring Resistance Calculator](https://calcengineer.com/calculators/ground-ring-resistance)
+* [Grounding Electrode Resistance Calculator](https://calcengineer.com/calculators/grounding-electrode-resistance)
+* [Harmonic Distortion Calculator](https://calcengineer.com/calculators/harmonic-distortion-calculator)
+* [Harmonic Filter Design Calculator](https://calcengineer.com/calculators/harmonic-filter-design)
+* [Inductor Design Calculator](https://calcengineer.com/calculators/inductor-design-calculator)
+* [Inductor Energy Storage Calculator](https://calcengineer.com/calculators/inductor-energy-storage-calculator)
+* [Inductor Reactance Calculator — X_L = 2πfL | Ω to kΩ](https://calcengineer.com/calculators/inductor-reactance-calculator)
+* [kVA to Amps Calculator](https://calcengineer.com/calculators/kva-to-amps-calculator)
+* [kVA to kW Calculator](https://calcengineer.com/calculators/kva-to-kw-calculator)
+* [kW to kVA Calculator](https://calcengineer.com/calculators/kw-to-kva-calculator)
+* [Lighting Circuit Voltage Drop Calculator — % Drop & Load Voltage](https://calcengineer.com/calculators/lighting-circuit-voltage-drop)
+* [Lighting Level Calculator (IES) — Lux, Foot-Candles & Target %](https://calcengineer.com/calculators/lighting-level-calculator-ies)
+* [Lightning Protection Zone Calculator – Rolling Sphere Method](https://calcengineer.com/calculators/lightning-protection-zone)
+* [Microgrid Battery Storage Sizing Calculator](https://calcengineer.com/calculators/microgrid-battery-storage-sizing)
+* [Microgrid Stability Estimator](https://calcengineer.com/calculators/microgrid-stability-estimator)
+* [Motor Acceleration Time Calculator](https://calcengineer.com/calculators/motor-acceleration-time)
+* [Motor Current Calculator](https://calcengineer.com/calculators/motor-current-calculator)
+* [Motor Torque Calculator](https://calcengineer.com/calculators/motor-torque-calculator)
+* [Ohm's Law Calculator](https://calcengineer.com/calculators/ohms-law-calculator)
+* [Op-Amp Gain Calculator](https://calcengineer.com/calculators/op-amp-gain-calculator)
+* [Op-Amp Inverting/Non-Inverting Calculator](https://calcengineer.com/calculators/op-amp-invertingnon-inverting-calculator)
+* [Power Factor Calculator](https://calcengineer.com/calculators/power-factor-calculator)
+* [Power Loss Calculator](https://calcengineer.com/calculators/power-loss-calculator)
+* [Power Quality Analyzer Fit Tool](https://calcengineer.com/calculators/power-quality-analyzer-estimator)
+* [Resistor Color Code Calculator — 4/5/6 Band Decoder & Chart](https://calcengineer.com/calculators/resistor-color-code-calculator)
+* [Series/Parallel Resistor Calculator](https://calcengineer.com/calculators/seriesparallel-resistor-calculator)
+* [NEC Service Entrance Size Calculator](https://calcengineer.com/calculators/service-entrance-size-calculator)
+* [Signal Propagation Delay Calculator](https://calcengineer.com/calculators/signal-propagation-delay)
+* [Single-Phase Power Calculator](https://calcengineer.com/calculators/single-phase-power-calculator)
+* [Smart Grid Peak Shaving Calculator](https://calcengineer.com/calculators/smart-grid-peak-shaving-calculator)
+* [Soft Starter Sizing Calculator](https://calcengineer.com/calculators/soft-starter-sizing)
+* [Solar Charge Controller Sizing Calculator](https://calcengineer.com/calculators/solar-charge-controller-sizing-calculator)
+* [Surge Protection Device Rating Calculator](https://calcengineer.com/calculators/surge-protection-device-rating)
+* [Switchgear Short Circuit Rating Calculator](https://calcengineer.com/calculators/switchgear-short-circuit-rating)
+* [Three-Phase Power Calculator](https://calcengineer.com/calculators/three-phase-power-calculator)
+* [Transfer Switch Sizing Calculator](https://calcengineer.com/calculators/transfer-switch-sizing)
+* [Transformer Sizing Calculator](https://calcengineer.com/calculators/transformer-sizing-calculator)
+* [UPS Battery Runtime Calculator](https://calcengineer.com/calculators/ups-battery-runtime-calculator)
+* [UPS Sizing Calculator](https://calcengineer.com/calculators/ups-sizing-calculator)
+* [VFD Parameter Selection Calculator](https://calcengineer.com/calculators/vfd-parameter-selection)
+* [Voltage Divider Calculator](https://calcengineer.com/calculators/voltage-divider-calculator)
+* [Voltage Drop Calculator — NEC (Aluminum)](https://calcengineer.com/calculators/voltage-drop-calculator-nec-aluminum)
+* [Voltage Drop Calculator — NEC (Copper)](https://calcengineer.com/calculators/voltage-drop-calculator-nec-copper)
+* [Voltage Drop Calculator](https://calcengineer.com/calculators/voltage-drop-calculator)
+* [Wind Turbine Power Output Calculator](https://calcengineer.com/calculators/wind-turbine-power-output)
+* [Wire Size / Ampacity Calculator (NEC)](https://calcengineer.com/calculators/wire-size-ampacity-nec-calculator)
 
 ---
 
-## Coming Soon
+## 💡 Why CalcEngineer?
 
-The following calculator categories are in active development:
-
-- **Structural** — beam sizing, load calculations, foundation design
-- **Mechanical** — pipe sizing, pump curves, heat transfer
-- **Manufacturing** — CNC feeds and speeds, material properties
-- **Plumbing** — pipe pressure drop, fixture unit calculations
+- **Free** — all calculators available without registration
+- **Professional-grade** — based on industry standards (NEC, ASHRAE, SMACNA, NFPA)
+- **Dual units** — switch between Metric and Imperial instantly
+- **RIS (Result Intelligence System)** — smart status indicators on every result
+- **Mobile-friendly** — works on any device
 
 ---
 
-## About CalcEngineer
-
-[CalcEngineer.com](https://calcengineer.com) is a free engineering calculation platform for professionals. All calculators support Metric and Imperial units, deliver instant results, and follow industry standards. Professional PDF reports are available for documentation and client deliverables.
-
-- Website: [https://calcengineer.com](https://calcengineer.com)
-- All calculators: [https://calcengineer.com/calculators](https://calcengineer.com/calculators)
-- HVAC calculators: [https://calcengineer.com/hvac](https://calcengineer.com/hvac)
-- Electrical calculators: [https://calcengineer.com/electrical](https://calcengineer.com/electrical)
+*© CalcEngineer.com — Professional Engineering Calculators*
