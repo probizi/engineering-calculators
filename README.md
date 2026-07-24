@@ -1,17 +1,17 @@
-# Engineering Calculators — Free Online Tools for HVAC, Electrical & Technical Professionals
+# Engineering Calculators — Free Online Tools for HVAC, Electrical, Plumbing & Technical Professionals
 
-**[CalcEngineer.com](https://calcengineer.com)** provides free, accurate engineering calculators built for professionals. Whether you're sizing HVAC equipment, calculating voltage drop, or checking duct velocity — every tool delivers instant results with no sign-up required.
+**[CalcEngineer.com](https://calcengineer.com)** provides free, accurate engineering calculators built for professionals. Whether you're sizing HVAC equipment, calculating voltage drop, sizing drain pipes, or checking duct velocity — every tool delivers instant results with no sign-up required.
 
-Currently **217 calculators** are live across HVAC and Electrical categories, with Structural, Mechanical, and Manufacturing calculators in development.
+Currently **258 calculators** are live across HVAC, Electrical, and Plumbing categories, with Structural, Mechanical, and Manufacturing calculators in development.
 
 ---
 
 ## What Makes These Calculators Different
 
-- **Built for real engineering work** — not generic formula widgets. Each calculator is based on ASHRAE, SMACNA, NEC, and other professional standards.
+- **Built for real engineering work** — not generic formula widgets. Each calculator is based on ASHRAE, SMACNA, NEC, IPC, and other professional standards.
 - **Metric and Imperial support** — switch between unit systems instantly without re-entering data.
 - **Result Intelligence System (RIS)** — results include status labels, context, and recommended next steps, not just raw numbers.
-- **Paid PDF reports** — generate a professional report for any calculation to attach to project documentation.
+- **Free PDF reports** — generate a professional report for any calculation to attach to project documentation.
 - **No account required** for basic use.
 
 ---
@@ -167,7 +167,6 @@ Currently **217 calculators** are live across HVAC and Electrical categories, wi
 |---|---|
 | [Daylight Factor Calculator](https://calcengineer.com/hvac/daylight-factor-calculator/) | Calculate daylight factor and indoor daylight illuminance |
 | [Glare Index Calculator](https://calcengineer.com/hvac/glare-index-calculator/) | Calculate glare index and visual comfort for interior lighting |
-| [Adaptive Comfort Model Calculator](https://calcengineer.com/hvac/adaptive-comfort-calculator/) | Calculate thermal comfort acceptability per ASHRAE 55 adaptive model |
 
 ### Specialized Applications
 
@@ -185,7 +184,7 @@ Currently **217 calculators** are live across HVAC and Electrical categories, wi
 
 ---
 
-## Electrical Calculators (93)
+## Electrical Calculators (96)
 
 ### Voltage, Power & Conversions
 
@@ -256,6 +255,7 @@ Currently **217 calculators** are live across HVAC and Electrical categories, wi
 | [Transfer Switch Sizing Calculator](https://calcengineer.com/electrical/transfer-switch-sizing/) | Size transfer switch in amps per NEC Article 702 with 125% continuous load factor applied |
 | [Demand Factor Calculator (NEC)](https://calcengineer.com/electrical/demand-factor-calculator-nec/) | Apply NEC demand factor to connected load in VA/kVA; get demand load and reduction percentage |
 | [Panel Schedule Load Calculator](https://calcengineer.com/electrical/panel-schedule-load-calculator/) | Calculate panel total load and service ampacity per NEC Article 220; flag overloaded breakers |
+| [Diversity Factor Calculator](https://calcengineer.com/electrical/diversity-factor-for-loads/) | Calculate diversity factor, coincidence factor, load diversity, and coincident demand for feeder, transformer, and panel sizing |
 
 ### Power Quality & Harmonics
 
@@ -313,6 +313,7 @@ Currently **217 calculators** are live across HVAC and Electrical categories, wi
 | [Lighting Level Calculator (IES)](https://calcengineer.com/electrical/lighting-level-calculator-ies/) | Estimate average maintained illuminance via lumen method from lumens, CU, LLF, and area |
 | [LED Current Limiting Resistor Calculator](https://calcengineer.com/electrical/led-resistor-calculator/) | Calculate resistor value for LEDs from supply voltage, forward voltage, and target current; includes standard E-series match |
 | [EV Charger Load Calculator](https://calcengineer.com/electrical/ev-charger-load-calculator/) | Size branch circuit for EV charger or find the largest charger an existing circuit supports per NEC Article 625 |
+| [Home EV Charging Cost Calculator](https://calcengineer.com/electrical/home-ev-charging-cost-calculator/) | Calculate home EV charging cost from mileage, kWh efficiency, and flat or time-of-use rates |
 
 ### Passive Components
 
@@ -343,6 +344,98 @@ Currently **217 calculators** are live across HVAC and Electrical categories, wi
 
 ---
 
+## Plumbing Calculators (38)
+
+### Water Supply & Pipe Sizing
+
+| Calculator | Description |
+|---|---|
+| [Water Pipe Sizing Calculator](https://calcengineer.com/plumbing/water-pipe-sizing-calculator/) | Size water supply pipe by GPM, velocity, and friction loss |
+| [Copper Pipe Sizing Calculator](https://calcengineer.com/plumbing/copper-pipe-sizing-calculator/) | Size Type K, L, and M copper by GPM, velocity, and friction |
+| [PEX Pipe Sizing Calculator](https://calcengineer.com/plumbing/pex-pipe-sizing-calculator/) | Size PEX tubing by GPM, velocity, and friction |
+| [Hazen-Williams Pipe Flow Calculator](https://calcengineer.com/plumbing/hazen-williams-pipe-flow-calculator/) | Calculate water head loss, flow rate, or pipe diameter with the Hazen-Williams equation |
+| [Water Supply Fixture Unit Calculator](https://calcengineer.com/plumbing/water-supply-fixture-unit-calculator/) | Add water supply fixture units by fixture and occupancy, then convert WSFU to peak GPM |
+| [Water Pressure Calculator](https://calcengineer.com/plumbing/water-pressure-calculator/) | Calculate water pressure from head height and elevation difference |
+| [Booster Pump Sizing Calculator](https://calcengineer.com/plumbing/booster-pump-sizing-calculator/) | Size a water booster pump by GPM and pressure boost |
+
+### Pumps & Flow Control
+
+| Calculator | Description |
+|---|---|
+| [Pump Power Calculator](https://calcengineer.com/plumbing/pump-power-calculator/) | Calculate pump hydraulic power, brake horsepower, and motor electrical input from flow, TDH, SG, and efficiency |
+| [Well Pump Sizing Calculator](https://calcengineer.com/plumbing/well-pump-sizing-calculator/) | Size a well pump by GPM and total dynamic head |
+| [Sump Pump Capacity Calculator](https://calcengineer.com/plumbing/sump-pump-capacity-calculator/) | Calculate sump pump size from inflow, safety factor, lift, and friction |
+| [Fire Pump Performance Curve Calculator](https://calcengineer.com/plumbing/fire-pump-performance-curve/) | Check a fire pump performance curve against NFPA 20 using churn, rated-flow, and 150% flow points |
+| [Valve Cv Flow Calculator](https://calcengineer.com/plumbing/valve-cv-flow-calculator/) | Calculate valve flow, required Cv or Kv, and pressure drop for liquid service |
+
+### Drainage & Sanitary
+
+| Calculator | Description |
+|---|---|
+| [Drainage Fixture Unit Calculator](https://calcengineer.com/plumbing/drainage-fixture-unit-calculator/) | Add drainage fixture units by fixture, IPC or UPC, private or public |
+| [Sanitary Drain Pipe Sizing Calculator](https://calcengineer.com/plumbing/sanitary-drain-pipe-sizing-calculator/) | Size a sanitary drain from its DFU load |
+| [Drain Pipe Slope Calculator](https://calcengineer.com/plumbing/drain-pipe-slope-calculator/) | Find drain pipe slope and fall by IPC or UPC code minimum |
+| [Pipe Slope Calculator](https://calcengineer.com/plumbing/pipe-slope-calculator/) | Find drain pipe slope and flow velocity with Manning's equation per IPC 704 |
+| [Stormwater Drainage Pipe Sizing Calculator](https://calcengineer.com/plumbing/stormwater-drainage-pipe-sizing/) | Size a storm drain pipe by the Rational Method and Manning's equation |
+| [Grease Trap Sizing Calculator](https://calcengineer.com/plumbing/grease-trap-sizing-calculator/) | Size a hydromechanical grease trap from sink volume and drain time |
+| [Drain Field Sizing Calculator](https://calcengineer.com/plumbing/drain-field-sizing-calculator/) | Size a septic drain field from design flow, percolation rate, and soil loading rate |
+| [Septic Tank Size Calculator](https://calcengineer.com/plumbing/septic-tank-size-calculator/) | Calculate septic tank size from bedrooms, daily flow, and retention time |
+
+### Steam & Condensate
+
+| Calculator | Description |
+|---|---|
+| [Steam Pipe Sizing Calculator](https://calcengineer.com/plumbing/steam-pipe-sizing/) | Size a saturated steam pipe by velocity or pressure drop |
+| [Condensate Return Line Sizing Calculator](https://calcengineer.com/plumbing/condensate-return-line-sizing/) | Size condensate return lines for flash steam velocity from condensate load and trap pressures |
+
+### Hot Water & Water Treatment
+
+| Calculator | Description |
+|---|---|
+| [Hot Water Demand Calculator](https://calcengineer.com/plumbing/hot-water-demand-calculator/) | Estimate peak hot water demand by building type |
+| [Water Heater Sizing Calculator](https://calcengineer.com/plumbing/hot-water-heater-sizing-calculator/) | Size a storage or tankless water heater — first-hour rating, peak demand, and recovery rate |
+| [Tankless Water Heater Sizing Calculator](https://calcengineer.com/plumbing/tankless-water-heater-sizing-calculator/) | Size a tankless water heater by peak flow and temperature rise |
+| [Water Softener Sizing Calculator](https://calcengineer.com/plumbing/water-softener-sizing-calculator/) | Size a water softener from compensated hardness and delivered capacity at your salt setting |
+
+### Compressed Air & Vacuum
+
+| Calculator | Description |
+|---|---|
+| [Compressed Air Pipe Sizing Calculator](https://calcengineer.com/plumbing/compressed-air-pipe-sizing/) | Size compressed air pipe from free air delivery, line pressure, length, velocity limit, and pressure drop |
+| [Vacuum Pipe Sizing Calculator](https://calcengineer.com/plumbing/vacuum-pipe-sizing-calculator/) | Size vacuum piping by converting SCFM to ACFM at operating vacuum, then check velocity and pressure drop |
+
+### Tanks & Storage
+
+| Calculator | Description |
+|---|---|
+| [Expansion Tank Sizing Calculator](https://calcengineer.com/plumbing/expansion-tank-sizing-calculator/) | Size an expansion tank from water volume, temperature rise, fill pressure, and relief setting |
+| [Horizontal Tank Volume Calculator](https://calcengineer.com/plumbing/horizontal-tank-volume-calculator/) | Calculate liquid volume in a horizontal cylindrical tank by fill depth |
+| [Tank Drain Time Calculator](https://calcengineer.com/plumbing/tank-drain-time-calculator/) | Calculate tank drain time through a gravity orifice using Torricelli's falling-head formula |
+
+### Pipe Supports, Expansion & Seismic
+
+| Calculator | Description |
+|---|---|
+| [Pipe Support Spacing Calculator](https://calcengineer.com/plumbing/pipe-support-spacing-calculator/) | Find maximum pipe support spacing from bending stress and deflection sag |
+| [Pipe Hanger Load Calculator](https://calcengineer.com/plumbing/hanger-load-calculator/) | Calculate pipe hanger load from pipe weight, water fill, insulation, and spacing |
+| [Pipe Expansion Loop Sizing Calculator](https://calcengineer.com/plumbing/pipe-expansion-loop-sizing/) | Size a U-shaped expansion loop for pipe thermal growth between anchors using the guided-cantilever method |
+| [Seismic Bracing for Pipes Calculator](https://calcengineer.com/plumbing/seismic-bracing-for-pipes/) | Calculate seismic design load on pipe sway braces per NFPA 13 or ASCE 7 |
+
+### Pipe Heat Loss
+
+| Calculator | Description |
+|---|---|
+| [Pipe Heat Loss Calculator (Insulated)](https://calcengineer.com/plumbing/pipe-heat-loss-calculator-insulated/) | Calculate insulated pipe heat loss or heat gain with the composite-cylinder method |
+| [Buried Pipe Heat Loss Calculator](https://calcengineer.com/plumbing/heat-loss-in-buried-pipes-calculator/) | Calculate buried pipe heat loss or heat gain using the soil shape factor |
+
+### Medical Gas
+
+| Calculator | Description |
+|---|---|
+| [Medical Gas Pipe Sizing Calculator](https://calcengineer.com/plumbing/medical-gas-pipe-sizing/) | Size oxygen, medical air, and vacuum copper pipe by flow demand, diversity, and allowable pressure drop per NFPA 99 |
+
+---
+
 ## Standards Referenced
 
 CalcEngineer calculators are built on recognized engineering standards:
@@ -351,8 +444,12 @@ CalcEngineer calculators are built on recognized engineering standards:
 - **SMACNA** — HVAC Duct Construction Standards, Duct Design Manual
 - **NEC / NFPA 70** — National Electrical Code (breaker sizing, voltage drop, arc flash)
 - **NFPA 70E** — Electrical Safety in the Workplace (arc flash boundaries)
+- **NFPA 20** — Standard for the Installation of Stationary Pumps for Fire Protection
 - **NFPA 31** — Standard for the Installation of Oil-Burning Equipment
+- **NFPA 99** — Health Care Facilities Code (medical gas pipe sizing)
 - **NFPA 101** — Life Safety Code (emergency lighting duration)
+- **IPC** — International Plumbing Code (drainage, pipe slopes, fixture units)
+- **UPC** — Uniform Plumbing Code (drainage fixture units)
 - **IEEE 80** — Guide for Safety in AC Substation Grounding
 - **IEEE C37.112 / IEC 60255-151** — Overcurrent relay coordination
 - **IEEE C57.13** — Standard Requirements for Instrument Transformers (PT/VT selection)
@@ -361,6 +458,8 @@ CalcEngineer calculators are built on recognized engineering standards:
 - **IES** — Lighting handbook (illuminance levels and lumen method)
 - **IMC** — International Mechanical Code
 - **ASABE** — Agricultural and Biological Engineering standards (grain drying)
+- **ASCE 7** — Minimum Design Loads for Buildings and Other Structures (seismic pipe bracing)
+- **PDI G101 / ASME A112** — Grease interceptor standards
 
 ---
 
@@ -369,17 +468,17 @@ CalcEngineer calculators are built on recognized engineering standards:
 The following calculator categories are in active development:
 
 - **Structural** — beam sizing, load calculations, foundation design
-- **Mechanical** — pipe sizing, pump curves, heat transfer
-- **Manufacturing** — CNC feeds and speeds, material properties
-- **Plumbing** — pipe pressure drop, fixture unit calculations
+- **Mechanical** — CNC feeds and speeds, material properties, heat transfer
+- **Manufacturing** — machining parameters, material selection, process engineering
 
 ---
 
 ## About CalcEngineer
 
-[CalcEngineer.com](https://calcengineer.com) is a free engineering calculation platform for professionals. All calculators support Metric and Imperial units, deliver instant results, and follow industry standards. Professional PDF reports are available for documentation and client deliverables.
+[CalcEngineer.com](https://calcengineer.com) is a free engineering calculation platform for professionals. All calculators support Metric and Imperial units, deliver instant results, and follow industry standards. Free PDF reports are available for documentation and client deliverables.
 
 - Website: [https://calcengineer.com](https://calcengineer.com)
 - All calculators: [https://calcengineer.com/calculators](https://calcengineer.com/calculators)
 - HVAC calculators: [https://calcengineer.com/hvac](https://calcengineer.com/hvac)
 - Electrical calculators: [https://calcengineer.com/electrical](https://calcengineer.com/electrical)
+- Plumbing calculators: [https://calcengineer.com/plumbing](https://calcengineer.com/plumbing)
