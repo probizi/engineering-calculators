@@ -2,7 +2,7 @@
 
 **[CalcEngineer.com](https://calcengineer.com)** provides free, accurate engineering calculators built for professionals. Whether you're sizing HVAC equipment, calculating voltage drop, sizing drain pipes, or checking duct velocity — every tool delivers instant results with no sign-up required.
 
-Currently **258 calculators** are live across HVAC, Electrical, and Plumbing categories, with Structural, Mechanical, and Manufacturing calculators in development.
+Currently **276 calculators** are live across HVAC, Electrical, and Plumbing categories, with Structural, Mechanical, and Manufacturing calculators in development.
 
 ---
 
@@ -16,7 +16,7 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 
 ---
 
-## HVAC Calculators (124)
+## HVAC Calculators (123)
 
 ### Airflow & Duct Design
 
@@ -54,7 +54,6 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 | [Chiller Capacity Calculator](https://calcengineer.com/hvac/chiller-capacity-calculator/) | Size chiller from chilled water flow rate and temperature difference |
 | [Chiller Efficiency Calculator (IPLV)](https://calcengineer.com/hvac/chiller-efficiency-calculator-iplv/) | Calculate integrated part-load value for chiller efficiency |
 | [Cooling Tower Calculator](https://calcengineer.com/hvac/cooling-tower-calculator/) | Analyze cooling tower performance from water and air temperatures |
-| [Cooling Tower Approach Calculator](https://calcengineer.com/hvac/cooling-tower-approach-calculator/) | Calculate approach temperature for cooling tower selection |
 | [Refrigeration Load Calculator](https://calcengineer.com/hvac/refrigeration-load-calculator/) | Estimate refrigeration load from envelope area, U-value, and temperatures |
 | [Cold Storage Door Infiltration Calculator](https://calcengineer.com/hvac/cold-storage-door-infiltration/) | Calculate heat gain from air infiltration through cold storage doors |
 | [Cool Roof Energy Savings Calculator](https://calcengineer.com/hvac/cool-roof-energy-savings-calculator/) | Estimate energy savings from increased roof solar reflectance |
@@ -80,6 +79,7 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 | [Subway Platform Heat Load Calculator](https://calcengineer.com/hvac/subway-platform-heat-load/) | Calculate heat load on subway station platforms from trains and passengers |
 | [VRF System Sizing Calculator](https://calcengineer.com/hvac/vrf-system-sizing-calculator/) | Size variable refrigerant flow systems from peak zone loads |
 | [Superheat/Subcooling Calculator](https://calcengineer.com/hvac/superheatsubcooling-calculator/) | Calculate refrigerant superheat and subcooling from pressure and temperature readings |
+| [Target Superheat Calculator](https://calcengineer.com/hvac/target-superheat-calculator/) | Target superheat for a fixed orifice system from indoor wet bulb and outdoor dry bulb |
 | [Pool Heating Load Calculator](https://calcengineer.com/hvac/pool-heating-load/) | Calculate pool heating requirements from surface area and heat loss |
 
 ### Heating & Boilers
@@ -139,7 +139,6 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 | [Poultry House Ammonia Control Calculator](https://calcengineer.com/hvac/poultry-house-ammonia-control/) | Estimate ventilation needed to control ammonia levels in poultry housing |
 | [Greenhouse Heating and Ventilation Calculator](https://calcengineer.com/hvac/greenhouse-heating-and-ventilation-calculator/) | Calculate heating and ventilation for greenhouse structures |
 | [Blower Door Test CFM50 Calculator](https://calcengineer.com/hvac/blower-door-test-cfm50/) | Calculate ACH50 and infiltration from blower door test results |
-| [Building Envelope Tightness Calculator](https://calcengineer.com/hvac/building-envelope-tightness/) | Assess building envelope air tightness from blower door data |
 | [Radon Mitigation System Sizing Calculator](https://calcengineer.com/hvac/radon-mitigation-system-sizing/) | Size sub-slab depressurization systems for radon mitigation |
 | [VOC Concentration Estimator](https://calcengineer.com/hvac/voc-concentration-estimator/) | Estimate indoor VOC concentration from emission rate and ventilation airflow |
 | [Laboratory Fume Hood Diversity Factor Calculator](https://calcengineer.com/hvac/laboratory-fume-hood-diversity-factor/) | Calculate diversity factor for multi-hood laboratory exhaust systems |
@@ -184,7 +183,7 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 
 ---
 
-## Electrical Calculators (96)
+## Electrical Calculators (94)
 
 ### Voltage, Power & Conversions
 
@@ -265,7 +264,6 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 | [Harmonic Filter Design Calculator](https://calcengineer.com/electrical/harmonic-filter-design/) | Design passive harmonic filters for power quality improvement |
 | [CT Burden Calculator](https://calcengineer.com/electrical/ct-burden-calculator/) | Calculate current transformer burden from connected load impedances |
 | [PT/VT Ratio Calculator](https://calcengineer.com/electrical/pt-ratio-selection/) | Select potential transformer ratio per IEEE C57.13; verify secondary voltage and metering accuracy class |
-| [Capacitor Sizing for Power Factor Correction](https://calcengineer.com/electrical/capacitor-sizing-for-power-factor-correction/) | Calculate capacitor bank size to improve power factor to a target value |
 | [Power Quality Analyzer Fit Tool](https://calcengineer.com/electrical/power-quality-analyzer-estimator/) | Assess power quality analyzer suitability by site voltage, phases, harmonics, and logging requirements |
 
 ### Energy Storage & Backup
@@ -290,7 +288,6 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 |---|---|
 | [Ground Resistance Calculator](https://calcengineer.com/electrical/ground-resistance-calculator/) | Calculate ground electrode resistance from soil resistivity and electrode geometry |
 | [Ground Ring Resistance Calculator](https://calcengineer.com/electrical/ground-ring-resistance/) | Calculate resistance of a buried ground ring from dimensions and soil data |
-| [Grounding Electrode Resistance Calculator](https://calcengineer.com/electrical/grounding-electrode-resistance/) | Calculate grounding electrode resistance per IEEE 80 and NEC requirements |
 
 ### Renewable Energy & Generation
 
@@ -344,7 +341,7 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 
 ---
 
-## Plumbing Calculators (38)
+## Plumbing Calculators (59)
 
 ### Water Supply & Pipe Sizing
 
@@ -353,10 +350,21 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 | [Water Pipe Sizing Calculator](https://calcengineer.com/plumbing/water-pipe-sizing-calculator/) | Size water supply pipe by GPM, velocity, and friction loss |
 | [Copper Pipe Sizing Calculator](https://calcengineer.com/plumbing/copper-pipe-sizing-calculator/) | Size Type K, L, and M copper by GPM, velocity, and friction |
 | [PEX Pipe Sizing Calculator](https://calcengineer.com/plumbing/pex-pipe-sizing-calculator/) | Size PEX tubing by GPM, velocity, and friction |
-| [Hazen-Williams Pipe Flow Calculator](https://calcengineer.com/plumbing/hazen-williams-pipe-flow-calculator/) | Calculate water head loss, flow rate, or pipe diameter with the Hazen-Williams equation |
+| [CPVC Pipe Sizing Calculator](https://calcengineer.com/plumbing/cpvc-pipe-sizing-calculator/) | Size CPVC by CTS or Schedule family with published bore per ASTM D2846 and the hot-water derated rating |
 | [Water Supply Fixture Unit Calculator](https://calcengineer.com/plumbing/water-supply-fixture-unit-calculator/) | Add water supply fixture units by fixture and occupancy, then convert WSFU to peak GPM |
+| [Hose Bibb and Irrigation Demand Calculator](https://calcengineer.com/plumbing/hose-bibb-irrigation-demand-calculator/) | Split outdoor outlets between fixture units and continuous GPM, then get combined supply demand |
+| [Water Meter Sizing Calculator](https://calcengineer.com/plumbing/water-meter-sizing-calculator/) | Size a cold water meter on the AWWA C700 ladder against peak flow and sustained continuous duty |
+| [Water Service Line Sizing Calculator](https://calcengineer.com/plumbing/water-service-line-sizing-calculator/) | Size a buried service line from the pressure left after meter, backflow, filter, and elevation losses |
 | [Water Pressure Calculator](https://calcengineer.com/plumbing/water-pressure-calculator/) | Calculate water pressure from head height and elevation difference |
 | [Booster Pump Sizing Calculator](https://calcengineer.com/plumbing/booster-pump-sizing-calculator/) | Size a water booster pump by GPM and pressure boost |
+
+### Pipe Flow & Friction
+
+| Calculator | Description |
+|---|---|
+| [Hazen-Williams Pipe Flow Calculator](https://calcengineer.com/plumbing/hazen-williams-pipe-flow-calculator/) | Calculate water head loss, flow rate, or pipe diameter with the Hazen-Williams equation |
+| [Equivalent Length of Pipe Fittings Calculator](https://calcengineer.com/plumbing/equivalent-length-of-pipe-fittings-calculator/) | Convert a fitting schedule to equivalent length using Crane TP-410 L/D ratios and the actual bore |
+| [Galvanized Steel Pipe Flow Calculator](https://calcengineer.com/plumbing/galvanized-steel-pipe-flow-calculator/) | Estimate remaining bore and C factor in aged galvanized pipe, then the flow and head loss that follow |
 
 ### Pumps & Flow Control
 
@@ -368,6 +376,15 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 | [Fire Pump Performance Curve Calculator](https://calcengineer.com/plumbing/fire-pump-performance-curve/) | Check a fire pump performance curve against NFPA 20 using churn, rated-flow, and 150% flow points |
 | [Valve Cv Flow Calculator](https://calcengineer.com/plumbing/valve-cv-flow-calculator/) | Calculate valve flow, required Cv or Kv, and pressure drop for liquid service |
 
+### Pressure Control & Backflow
+
+| Calculator | Description |
+|---|---|
+| [Pressure Reducing Valve Sizing Calculator](https://calcengineer.com/plumbing/pressure-reducing-valve-sizing-calculator/) | Required Cv, selection margin, and cavitation index for a potable water pressure reducing valve |
+| [Backflow Preventer Pressure Drop Calculator](https://calcengineer.com/plumbing/backflow-preventer-pressure-drop-calculator/) | Pressure drop across an RPZ or double check assembly from the spring floor through design flow |
+| [Water Hammer Arrestor Sizing Calculator](https://calcengineer.com/plumbing/water-hammer-arrestor-sizing-calculator/) | Select PDI arrestor units AA to F from branch fixture units, sized separately for cold and hot |
+| [Whole-House Filter Pressure Drop Calculator](https://calcengineer.com/plumbing/whole-house-filter-pressure-drop-calculator/) | Pressure drop across a cartridge filter train clean, current, and fully loaded, up to four stages |
+
 ### Drainage & Sanitary
 
 | Calculator | Description |
@@ -376,7 +393,13 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 | [Sanitary Drain Pipe Sizing Calculator](https://calcengineer.com/plumbing/sanitary-drain-pipe-sizing-calculator/) | Size a sanitary drain from its DFU load |
 | [Drain Pipe Slope Calculator](https://calcengineer.com/plumbing/drain-pipe-slope-calculator/) | Find drain pipe slope and fall by IPC or UPC code minimum |
 | [Pipe Slope Calculator](https://calcengineer.com/plumbing/pipe-slope-calculator/) | Find drain pipe slope and flow velocity with Manning's equation per IPC 704 |
+| [Building Sewer Invert and Burial Depth Calculator](https://calcengineer.com/plumbing/building-sewer-invert-depth-calculator/) | Slope and burial depth from two fixed inverts, checked against IPC 704.1 and UPC 708.0 minimums |
+| [Vent Pipe Sizing Calculator](https://calcengineer.com/plumbing/vent-pipe-sizing-calculator/) | Size a vent from the drain it serves per IPC 906.2, with the size step-up past 40 feet of length |
+| [Wet Vent Sizing Calculator](https://calcengineer.com/plumbing/wet-vent-sizing-calculator/) | Size a wet vent per IPC 912 and check the arrangement rules that decide whether one is permitted |
+| [Trap Arm Length Calculator](https://calcengineer.com/plumbing/trap-arm-length-calculator/) | Maximum trap-to-vent distance per IPC Table 909.1 plus the two-diameter minimum from the trap weir |
 | [Stormwater Drainage Pipe Sizing Calculator](https://calcengineer.com/plumbing/stormwater-drainage-pipe-sizing/) | Size a storm drain pipe by the Rational Method and Manning's equation |
+| [Roof Drain Sizing Calculator](https://calcengineer.com/plumbing/roof-drain-sizing-calculator/) | Size the vertical leader on the area one drain takes and the horizontal storm drain on the total |
+| [Sewage Ejector Pump Sizing Calculator](https://calcengineer.com/plumbing/sewage-ejector-pump-sizing-calculator/) | Size a sewage ejector per IPC 712 with the discharge pipe held to 2 ft/s scouring velocity |
 | [Grease Trap Sizing Calculator](https://calcengineer.com/plumbing/grease-trap-sizing-calculator/) | Size a hydromechanical grease trap from sink volume and drain time |
 | [Drain Field Sizing Calculator](https://calcengineer.com/plumbing/drain-field-sizing-calculator/) | Size a septic drain field from design flow, percolation rate, and soil loading rate |
 | [Septic Tank Size Calculator](https://calcengineer.com/plumbing/septic-tank-size-calculator/) | Calculate septic tank size from bedrooms, daily flow, and retention time |
@@ -395,7 +418,11 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 | [Hot Water Demand Calculator](https://calcengineer.com/plumbing/hot-water-demand-calculator/) | Estimate peak hot water demand by building type |
 | [Water Heater Sizing Calculator](https://calcengineer.com/plumbing/hot-water-heater-sizing-calculator/) | Size a storage or tankless water heater — first-hour rating, peak demand, and recovery rate |
 | [Tankless Water Heater Sizing Calculator](https://calcengineer.com/plumbing/tankless-water-heater-sizing-calculator/) | Size a tankless water heater by peak flow and temperature rise |
+| [Hot Water Recirculation Pump Sizing Calculator](https://calcengineer.com/plumbing/hot-water-recirculation-pump-sizing-calculator/) | Size a recirculation pump from loop heat loss — flow, loop head, and a return velocity check |
+| [Mixing Valve Calculator](https://calcengineer.com/plumbing/mixing-valve-calculator/) | Blend ratio, valve flow, and usable storage gained from a domestic tempering valve |
 | [Water Softener Sizing Calculator](https://calcengineer.com/plumbing/water-softener-sizing-calculator/) | Size a water softener from compensated hardness and delivered capacity at your salt setting |
+| [Iron Filter Sizing Calculator](https://calcengineer.com/plumbing/iron-filter-sizing-calculator/) | Size a backwashing iron filter against service flow and the well's available backwash flow |
+| [UV Water Disinfection Sizing Calculator](https://calcengineer.com/plumbing/uv-water-disinfection-sizing-calculator/) | Size a UV system on dose from peak flow and UV transmittance against NSF 55 Class A and B |
 
 ### Compressed Air & Vacuum
 
@@ -409,6 +436,7 @@ Currently **258 calculators** are live across HVAC, Electrical, and Plumbing cat
 | Calculator | Description |
 |---|---|
 | [Expansion Tank Sizing Calculator](https://calcengineer.com/plumbing/expansion-tank-sizing-calculator/) | Size an expansion tank from water volume, temperature rise, fill pressure, and relief setting |
+| [Well Pressure Tank Sizing Calculator](https://calcengineer.com/plumbing/well-pressure-tank-sizing-calculator/) | Drawdown, required tank volume, and cycles per hour for a tank sized on pump run time |
 | [Horizontal Tank Volume Calculator](https://calcengineer.com/plumbing/horizontal-tank-volume-calculator/) | Calculate liquid volume in a horizontal cylindrical tank by fill depth |
 | [Tank Drain Time Calculator](https://calcengineer.com/plumbing/tank-drain-time-calculator/) | Calculate tank drain time through a gravity orifice using Torricelli's falling-head formula |
 
@@ -460,6 +488,11 @@ CalcEngineer calculators are built on recognized engineering standards:
 - **ASABE** — Agricultural and Biological Engineering standards (grain drying)
 - **ASCE 7** — Minimum Design Loads for Buildings and Other Structures (seismic pipe bracing)
 - **PDI G101 / ASME A112** — Grease interceptor standards
+- **PDI WH-201** — Water Hammer Arresters (sizing units AA to F)
+- **AWWA C700** — Cold-Water Meters, Displacement Type (meter sizing and capacity)
+- **ASTM D2846** — CPVC Hot- and Cold-Water Distribution Systems
+- **Crane TP-410** — Flow of Fluids Through Valves, Fittings and Pipe (equivalent length L/D)
+- **NSF/ANSI 55** — Ultraviolet Microbiological Water Treatment Systems (Class A and B dose)
 
 ---
 
