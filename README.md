@@ -2,7 +2,7 @@
 
 **[CalcEngineer.com](https://calcengineer.com)** provides free, accurate engineering calculators built for professionals. Whether you're sizing HVAC equipment, calculating voltage drop, sizing drain pipes, or checking duct velocity — every tool delivers instant results with no sign-up required.
 
-Currently **276 calculators** are live across HVAC, Electrical, and Plumbing categories, with Structural, Mechanical, and Manufacturing calculators in development.
+Currently **277 calculators** are live across HVAC, Electrical, Plumbing, and Construction categories, with Structural, Mechanical, and Manufacturing calculators in development.
 
 ---
 
@@ -464,6 +464,16 @@ Currently **276 calculators** are live across HVAC, Electrical, and Plumbing cat
 
 ---
 
+## Construction Calculators (1)
+
+### Concrete & Site Work
+
+| Calculator | Description |
+|---|---|
+| [Concrete Calculator](https://calcengineer.com/construction/concrete-calculator/) | Volume for a slab, footing, round pour, wall or step flight, then the bag count or ready mix order, with the waste factor and the bag yield kept apart |
+
+---
+
 ## Standards Referenced
 
 CalcEngineer calculators are built on recognized engineering standards:
@@ -493,6 +503,9 @@ CalcEngineer calculators are built on recognized engineering standards:
 - **ASTM D2846** — CPVC Hot- and Cold-Water Distribution Systems
 - **Crane TP-410** — Flow of Fluids Through Valves, Fittings and Pipe (equivalent length L/D)
 - **NSF/ANSI 55** — Ultraviolet Microbiological Water Treatment Systems (Class A and B dose)
+- **ASTM C387** — Packaged, Dry, Combined Materials for Mortar and Concrete (bagged mix)
+- **ASTM C138** — Density, Relative Density and Air Content of Concrete (yield and unit weight)
+- **ASTM C39** — Compressive Strength of Cylindrical Concrete Specimens (the strength a mix is rated at)
 
 ---
 
@@ -515,3 +528,4 @@ The following calculator categories are in active development:
 - HVAC calculators: [https://calcengineer.com/hvac](https://calcengineer.com/hvac)
 - Electrical calculators: [https://calcengineer.com/electrical](https://calcengineer.com/electrical)
 - Plumbing calculators: [https://calcengineer.com/plumbing](https://calcengineer.com/plumbing)
+- Construction calculators: [https://calcengineer.com/construction](https://calcengineer.com/construction)
