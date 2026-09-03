@@ -2,7 +2,7 @@
 
 **[CalcEngineer.com](https://calcengineer.com)** provides free, accurate engineering calculators built for professionals. Whether you're sizing HVAC equipment, calculating voltage drop, sizing drain pipes, or checking duct velocity — every tool delivers instant results with no sign-up required.
 
-Currently **277 calculators** are live across HVAC, Electrical, Plumbing, and Construction categories, with Structural, Mechanical, and Manufacturing calculators in development.
+Currently **284 calculators** are live across HVAC, Electrical, Plumbing, and Construction categories, with Structural, Mechanical, and Manufacturing calculators in development.
 
 ---
 
@@ -464,13 +464,40 @@ Currently **277 calculators** are live across HVAC, Electrical, Plumbing, and Co
 
 ---
 
-## Construction Calculators (1)
+## Construction Calculators (8)
 
 ### Concrete & Site Work
 
 | Calculator | Description |
 |---|---|
 | [Concrete Calculator](https://calcengineer.com/construction/concrete-calculator/) | Volume for a slab, footing, round pour, wall or step flight, then the bag count or ready mix order, with the waste factor and the bag yield kept apart |
+| [Gravel Calculator](https://calcengineer.com/construction/gravel-calculator/) | Volume, loose cubic yards and tons for a driveway, path or base, with waste and compaction applied as two separate corrections rather than one percentage |
+
+### Area & Measurement
+
+| Calculator | Description |
+|---|---|
+| [Square Footage Calculator](https://calcengineer.com/construction/square-footage-calculator/) | Area for an appraisal, a flooring order, a listing or a lease, with the ANSI Z765 living area rules applied one at a time and below grade on its own line |
+
+### Stairs
+
+| Calculator | Description |
+|---|---|
+| [Stair Calculator](https://calcengineer.com/construction/stair-calculator/) | The riser counts a fixed total rise allows, with the height each produces and the code test applied, then the tread depth, run and angle for the count you pick |
+
+### Roofing
+
+| Calculator | Description |
+|---|---|
+| [Roof Pitch Calculator](https://calcengineer.com/construction/roof-pitch-calculator/) | Slope, percentage, angle and rafter length from any of five measurements, then the published minimum for twelve roof coverings and which of them the slope reaches |
+| [Roofing Calculator](https://calcengineer.com/construction/roofing-calculator/) | Squares, bundles, underlayment rolls and cap from a plan or plane by plane, with the measurement basis and the overhang asked before any slope factor is applied |
+
+### Interior Finishes
+
+| Calculator | Description |
+|---|---|
+| [Drywall Calculator](https://calcengineer.com/construction/drywall-calculator/) | Sheets for the walls and the ceiling separately, with the butt joints counted wall by wall, both openings methods offered and the waste applied before the rounding |
+| [Paint Calculator](https://calcengineer.com/construction/paint-calculator/) | Gallons and quarts for walls, ceiling, trim and primer as four separate products, with the label rate corrected for the real world gap, the texture and the substrate |
 
 ---
 
